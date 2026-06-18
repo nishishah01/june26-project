@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Layout from "./components/Layout";
 import Dashboard from "./pages/Dashboard";
 import Vendors from "./pages/Vendors";
 import Alerts from "./pages/Alerts";
-import RiskGraph from "./pages/RiskGraph";
 
 function App() {
 
@@ -11,29 +11,28 @@ function App() {
 
     <BrowserRouter>
 
-      <Routes>
+      <Layout>
 
-        <Route
-          path="/"
-          element={<Dashboard />}
-        />
+        <Routes>
 
-        <Route
-          path="/vendors"
-          element={<Vendors />}
-        />
+          <Route
+            path="/"
+            element={<Dashboard />}
+          />
 
-        <Route
-          path="/alerts"
-          element={<Alerts />}
-        />
+          <Route
+            path="/vendors"
+            element={<Vendors />}
+          />
 
-        <Route
-          path="/graph"
-          element={<RiskGraph />}
-        />
+          <Route
+            path="/alerts"
+            element={<Alerts />}
+          />
 
-      </Routes>
+        </Routes>
+
+      </Layout>
 
     </BrowserRouter>
 
