@@ -7,7 +7,8 @@ import {
   Menu, 
   X, 
   Activity, 
-  ShieldCheck 
+  ShieldCheck,
+  Globe
 } from "lucide-react";
 
 function Layout({ children }) {
@@ -32,6 +33,18 @@ function Layout({ children }) {
       name: "Alerts",
       icon: ShieldAlert,
       description: "Security & risk alerts"
+    },
+    {
+      path: "/apis",
+      name: "APIs",
+      icon: Globe,
+      description: "Enterprise API Inventory"
+    },
+    {
+      path: "/graph",
+      name: "Risk Graph",
+      icon: Activity,
+      description: "Cascade Breach Simulator"
     }
   ];
 

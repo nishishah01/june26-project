@@ -78,3 +78,39 @@ class VendorNews(models.Model):
 
     def __str__(self):
         return f"{self.vendor} - {self.title[:50] if self.title else 'No Title'}"
+
+
+
+class CyberNews(models.Model):
+
+    vendor = models.CharField(max_length=255)
+
+    title = models.TextField()
+
+    published = models.CharField(
+        max_length=255,
+        null=True,
+        blank=True
+    )
+
+    risk_category = models.CharField(
+        max_length=100,
+        null=True,
+        blank=True
+    )
+
+    cyber_hits = models.IntegerField(
+        default=0
+    )
+
+    financial_hits = models.IntegerField(
+        default=0
+    )
+
+    compliance_hits = models.IntegerField(
+        default=0
+    )
+
+    operational_hits = models.IntegerField(
+        default=0
+    )

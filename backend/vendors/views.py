@@ -5,6 +5,11 @@ from rest_framework.views import APIView
 from .models import Vendor
 from .serializers import VendorSerializer
 
+from .models import CyberNews
+
+from .serializers import (
+    CyberNewsSerializer
+)
 
 class VendorListView(ListAPIView):
 
@@ -42,3 +47,36 @@ class VendorDetailView(APIView):
             "risk_events_count":
                 vendor.risk_events_count
         })
+
+class CyberNewsListView(
+    ListAPIView
+):
+
+    queryset = (
+        CyberNews.objects.all()
+        .order_by("-id")
+    )
+
+    serializer_class = (
+        CyberNewsSerializer
+    )
+
+class VendorCyberNewsView(
+    ListAPIView
+):
+
+    serializer_class = (
+        CyberNewsSerializer
+    )
+
+    def get_queryset(self):
+
+        vendor = self.kwargs[
+            "vendor"
+        ]
+
+        return (
+            CyberNews.objects
+            .filter(vendor=vendor)
+            .order_by("-id")
+        )

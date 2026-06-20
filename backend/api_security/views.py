@@ -1,3 +1,14 @@
-from django.shortcuts import render
+# api_security/views.py
 
-# Create your views here.
+from rest_framework.generics import ListAPIView
+
+from .models import EnterpriseAPI
+
+from .serializers import APISerializer
+
+
+class APIListView(ListAPIView):
+
+    queryset = EnterpriseAPI.objects.all()
+
+    serializer_class = APISerializer

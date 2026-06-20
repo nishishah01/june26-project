@@ -24,27 +24,27 @@ function RiskGraph() {
     {
       id: "1",
       position: { x: 250, y: 30 },
-      data: { label: "🟢 Okta (Risk: 30)" },
+      data: { label: "🟢 Stripe (Vendor) (Risk: 30)" },
       type: "input",
       style: nodeStyle("var(--success)")
     },
     {
       id: "2",
       position: { x: 250, y: 160 },
-      data: { label: "🟡 Identity Service (Risk: 55)" },
+      data: { label: "🟡 Payment Service (Application) (Risk: 55)" },
       style: nodeStyle("var(--warning)")
     },
     {
       id: "3",
       position: { x: 250, y: 290 },
-      data: { label: "🟠 Login API (Risk: 75)" },
+      data: { label: "🟡 Zombie API (Risk: 40)" },
       style: nodeStyle("var(--warning)")
     },
     {
       id: "4",
       position: { x: 250, y: 420 },
-      data: { label: "🔴 Customer Portal (Risk: 90)" },
-      style: nodeStyle("var(--danger)")
+      data: { label: "🟢 Customer Portal (Business Unit) (Risk: 30)" },
+      style: nodeStyle("var(--success)")
     }
   ];
 
@@ -57,26 +57,26 @@ function RiskGraph() {
       {
         id: "1",
         position: { x: 250, y: 30 },
-        data: { label: "💥 Okta (Risk: 95)" },
+        data: { label: "💥 Stripe (Vendor - Compromised) (Risk: 95)" },
         type: "input",
         style: nodeStyle("var(--danger)", true)
       },
       {
         id: "2",
         position: { x: 250, y: 160 },
-        data: { label: "🔴 Identity Service (Risk: 82)" },
+        data: { label: "🔴 Payment Service (Risk: 80)" },
         style: nodeStyle("var(--danger)", true)
       },
       {
         id: "3",
         position: { x: 250, y: 290 },
-        data: { label: "🔴 Login API (Risk: 88)" },
+        data: { label: "🔴 Shadow API Risk (Risk: 95)" },
         style: nodeStyle("var(--danger)", true)
       },
       {
         id: "4",
         position: { x: 250, y: 420 },
-        data: { label: "🔴 Customer Portal (Risk: 92)" },
+        data: { label: "🔴 Customer Portal (Risk: 72)" },
         style: nodeStyle("var(--danger)", true)
       }
     ]);
@@ -127,16 +127,16 @@ function RiskGraph() {
         <div>
           <h3 style={{ fontSize: "16px", fontWeight: "600", display: "flex", alignItems: "center", gap: "8px" }}>
             <AlertOctagon size={18} className={isSimulating ? "text-danger" : "text-primary"} />
-            Cascade Breach Simulator
+            API Breach Cascade Simulator
           </h3>
           <p style={{ fontSize: "12px", color: "var(--text-secondary)", marginTop: "4px" }}>
-            Simulate how a compromise on an identity provider propagates down the service dependencies.
+            Simulate how a compromise on an API or vendor propagates down the service dependencies.
           </p>
         </div>
         <div style={{ display: "flex", gap: "12px" }}>
           {!isSimulating ? (
             <button className="simulation-btn" onClick={simulateBreach}>
-              <Play size={14} /> Simulate Breach
+              <Play size={14} /> Simulate API Breach
             </button>
           ) : (
             <button 
