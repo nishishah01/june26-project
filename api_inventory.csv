@@ -1,534 +1,534 @@
 api_id,vendor,api_name,endpoint,method,business_unit,authentication,tls_enabled,rate_limit,public_exposure,last_used,status,risk_score,risk_level
-API0230,KPMG,Authorization API,/api/v1/authorization,DELETE,Storage,None,True,True,False,2025-12-10 06:03:33.499198,Deprecated,30,Moderate
-API0074,Cisco,Authentication API,/api/v1/authentication,PUT,DevOps,JWT,False,True,False,2026-02-15 06:03:33.497389,Deprecated,40,Moderate
-API0522,Stripe,Recommendation API,/api/v1/recommendation,GET,CRM,Basic,False,True,False,2025-11-28 06:03:33.502370,Deprecated,40,Moderate
-API0087,CrowdStrike,File Upload API,/api/v1/file-upload,DELETE,Identity,JWT,True,False,False,2025-07-28 06:03:33.497501,Deprecated,20,Low
-API0470,Databricks,Customer API,/api/v1/customer,POST,HR,None,True,True,True,2026-04-09 06:03:33.501985,Active,60,High
-API0078,CrowdStrike,Logging API,/api/v1/logging,DELETE,Storage,None,False,False,True,2026-02-11 06:03:33.497423,Active,100,Critical
-API0298,PwC,Notification API,/api/v1/notification,POST,CRM,Basic,False,True,False,2026-05-19 06:03:33.499748,Active,30,Moderate
-API0419,Wipro,Billing API,/api/v1/billing,GET,CRM,OAuth2,False,True,False,2025-07-23 06:03:33.501320,Deprecated,40,Moderate
-API0343,PayPal,Admin API,/api/v1/admin,GET,DevOps,JWT,False,False,False,2025-11-19 06:03:33.500252,Deprecated,50,Moderate
-API0384,Visa,Invoice API,/api/v1/invoice,GET,Identity,API Key,False,True,True,2026-05-15 06:03:33.500674,Active,70,High
-API0007,Check Point,Logging API,/api/v1/logging,GET,CRM,JWT,True,True,False,2025-08-31 06:03:33.496903,Deprecated,10,Low
-API0118,Microsoft Azure,Authorization API,/api/v1/authorization,GET,Finance,Basic,False,False,True,2025-09-07 06:03:33.497727,Zombie,100,Critical
-API0411,Wipro,Admin API,/api/v1/admin,DELETE,Analytics,API Key,False,True,True,2025-10-15 06:03:33.500936,Zombie,90,Critical
-API0076,CrowdStrike,Email API,/api/v1/email,GET,CRM,API Key,False,True,False,2026-03-20 06:03:33.497409,Active,30,Moderate
-API0273,Trend Micro,Search API,/api/v1/search,GET,CRM,OAuth2,False,True,False,2026-03-25 06:03:33.499568,Active,30,Moderate
-API0196,Deloitte,CRM API,/api/v1/crm,GET,HR,API Key,False,True,True,2026-03-29 06:03:33.498951,Active,70,High
-API0495,Redis,Notification API,/api/v1/notification,GET,Finance,None,True,True,True,2025-12-22 06:03:33.502170,Active,60,High
-API0102,Cloudflare,Recommendation API,/api/v1/recommendation,DELETE,Analytics,JWT,True,True,True,2026-01-30 06:03:33.497611,Active,40,Moderate
-API0527,Auth0,User API,/api/v1/user,DELETE,Finance,None,False,False,True,2025-09-07 06:03:33.502411,Zombie,100,Critical
-API0056,Oracle,Recommendation API,/api/v1/recommendation,DELETE,DevOps,Basic,True,True,True,2026-02-21 06:03:33.497267,Active,40,Moderate
-API0374,Infosys,Logging API,/api/v1/logging,PUT,Identity,JWT,False,True,True,2026-01-30 06:03:33.500597,Active,70,High
-API0186,EY,Search API,/api/v1/search,GET,Identity,None,True,False,False,2026-01-22 06:03:33.498878,Deprecated,40,Moderate
-API0299,PwC,Audit API,/api/v1/audit,DELETE,Payments,OAuth2,False,True,True,2025-12-11 06:03:33.499755,Zombie,90,Critical
-API0168,Snowflake,Payment API,/api/v1/payment,POST,Payments,None,False,True,True,2026-06-14 06:03:33.498748,Active,90,Critical
-API0480,Databricks,Authorization API,/api/v1/authorization,GET,Finance,API Key,True,False,False,2026-04-12 06:03:33.502063,Active,10,Low
-API0003,Check Point,Search API,/api/v1/search,PUT,Payments,JWT,True,True,True,2026-03-09 06:03:33.496871,Active,40,Moderate
-API0181,EY,Admin API,/api/v1/admin,POST,DevOps,OAuth2,False,False,False,2026-05-30 06:03:33.498843,Active,40,Moderate
-API0358,Zscaler,Storage API,/api/v1/storage,PUT,DevOps,JWT,False,True,False,2025-08-17 06:03:33.500403,Deprecated,40,Moderate
-API0011,Check Point,Authorization API,/api/v1/authorization,GET,Identity,JWT,True,True,True,2025-12-16 06:03:33.496932,Zombie,60,High
-API0312,ServiceNow,Logging API,/api/v1/logging,DELETE,Analytics,None,True,True,True,2026-03-09 06:03:33.499858,Active,60,High
-API0372,Infosys,Search API,/api/v1/search,POST,Finance,Basic,True,False,True,2026-02-11 06:03:33.500579,Active,50,Moderate
-API0177,Snowflake,Profile API,/api/v1/profile,POST,Identity,API Key,True,True,False,2026-02-07 06:03:33.498810,Deprecated,10,Low
-API0246,Okta,Email API,/api/v1/email,POST,HR,OAuth2,False,True,True,2025-09-02 06:03:33.499314,Zombie,90,Critical
-API0465,Ping Identity,User API,/api/v1/user,DELETE,Storage,OAuth2,False,True,True,2025-08-03 06:03:33.501940,Zombie,90,Critical
-API0350,Zscaler,Analytics API,/api/v1/analytics,GET,Analytics,None,True,False,False,2025-09-12 06:03:33.500338,Deprecated,40,Moderate
-API0525,Stripe,Invoice API,/api/v1/invoice,POST,DevOps,JWT,True,False,True,2025-11-06 06:03:33.502388,Zombie,70,High
-API0415,Wipro,Recommendation API,/api/v1/recommendation,DELETE,Identity,None,True,True,False,2026-03-29 06:03:33.500973,Active,20,Low
-API0073,Cisco,Search API,/api/v1/search,POST,CRM,API Key,True,False,True,2026-02-07 06:03:33.497383,Active,50,Moderate
-API0197,Deloitte,Billing API,/api/v1/billing,PUT,Finance,JWT,True,True,True,2026-04-26 06:03:33.498957,Active,40,Moderate
-API0269,Oracle Cloud,Analytics API,/api/v1/analytics,PUT,Payments,Basic,False,True,True,2026-01-27 06:03:33.499533,Active,70,High
-API0322,TCS,Invoice API,/api/v1/invoice,GET,CRM,JWT,True,True,True,2026-05-14 06:03:33.499931,Active,40,Moderate
-API0489,Redis,CRM API,/api/v1/crm,POST,Storage,API Key,True,False,False,2026-05-03 06:03:33.502131,Active,10,Low
-API0141,Fortinet,Notification API,/api/v1/notification,GET,Analytics,API Key,True,False,False,2026-03-21 06:03:33.497924,Active,10,Low
-API0458,Ping Identity,Admin API,/api/v1/admin,PUT,Identity,Basic,True,True,True,2025-11-19 06:03:33.501894,Zombie,60,High
-API0174,Snowflake,Customer API,/api/v1/customer,DELETE,HR,OAuth2,True,True,False,2026-04-22 06:03:33.498789,Active,0,Low
-API0080,CrowdStrike,Admin API,/api/v1/admin,GET,DevOps,Basic,True,False,False,2026-02-20 06:03:33.497435,Active,10,Low
-API0363,Infosys,Profile API,/api/v1/profile,DELETE,Identity,Basic,False,False,True,2026-04-16 06:03:33.500479,Active,80,High
-API0397,Accenture,Recommendation API,/api/v1/recommendation,GET,Analytics,OAuth2,True,False,True,2026-02-13 06:03:33.500775,Active,50,Moderate
-API0534,Auth0,Analytics API,/api/v1/analytics,GET,Identity,JWT,False,False,True,2026-01-23 06:03:33.502502,Active,80,High
-API0031,Google Cloud,Authentication API,/api/v1/authentication,DELETE,Storage,API Key,False,True,False,2026-03-24 06:03:33.497096,Active,30,Moderate
-API0236,KPMG,Billing API,/api/v1/billing,GET,Storage,JWT,True,True,False,2026-02-17 06:03:33.499240,Deprecated,10,Low
-API0512,Stripe,User API,/api/v1/user,DELETE,Finance,None,False,True,False,2025-08-29 06:03:33.502301,Deprecated,60,High
-API0498,Mastercard,Search API,/api/v1/search,PUT,CRM,API Key,False,False,False,2025-07-22 06:03:33.502198,Deprecated,50,Moderate
-API0010,Check Point,Authentication API,/api/v1/authentication,GET,Analytics,Basic,True,True,False,2026-02-13 06:03:33.496925,Deprecated,10,Low
-API0529,Auth0,Customer API,/api/v1/customer,GET,Finance,None,True,True,True,2025-08-12 06:03:33.502424,Zombie,80,High
-API0326,TCS,Authentication API,/api/v1/authentication,DELETE,Storage,API Key,False,True,True,2026-01-21 06:03:33.499959,Active,70,High
-API0105,Cloudflare,Analytics API,/api/v1/analytics,POST,Analytics,API Key,False,True,True,2026-01-01 06:03:33.497632,Active,70,High
-API0447,MongoDB,Database API,/api/v1/database,PUT,HR,Basic,False,False,True,2025-11-15 06:03:33.501725,Zombie,100,Critical
-API0371,Infosys,Authorization API,/api/v1/authorization,GET,CRM,None,True,True,True,2025-12-24 06:03:33.500573,Active,60,High
-API0159,Palo Alto Networks,Customer API,/api/v1/customer,DELETE,Finance,API Key,True,True,True,2026-01-04 06:03:33.498678,Active,40,Moderate
-API0250,Okta,Recommendation API,/api/v1/recommendation,GET,Identity,None,True,True,True,2025-12-12 06:03:33.499341,Zombie,80,High
-API0317,TCS,File Upload API,/api/v1/file-upload,DELETE,Analytics,OAuth2,True,False,True,2026-04-20 06:03:33.499899,Active,50,Moderate
-API0077,CrowdStrike,Payment API,/api/v1/payment,DELETE,Identity,OAuth2,False,False,False,2025-07-11 06:03:33.497416,Deprecated,50,Moderate
-API0536,Auth0,Logging API,/api/v1/logging,POST,Payments,JWT,True,True,False,2026-06-07 06:03:33.502527,Active,0,Low
-API0071,Cisco,Customer API,/api/v1/customer,GET,Identity,Basic,False,False,True,2026-01-26 06:03:33.497371,Active,80,High
-API0487,Redis,Profile API,/api/v1/profile,DELETE,Payments,JWT,True,True,False,2025-12-30 06:03:33.502118,Deprecated,10,Low
-API0461,Ping Identity,Profile API,/api/v1/profile,POST,Analytics,Basic,True,True,False,2025-10-11 06:03:33.501913,Deprecated,10,Low
-API0369,Infosys,Storage API,/api/v1/storage,DELETE,DevOps,OAuth2,True,False,True,2025-11-22 06:03:33.500559,Zombie,70,High
-API0272,Trend Micro,Authentication API,/api/v1/authentication,DELETE,Finance,JWT,False,False,True,2025-10-09 06:03:33.499562,Zombie,100,Critical
-API0133,IBM Cloud,Email API,/api/v1/email,GET,Finance,None,True,False,False,2025-12-31 06:03:33.497834,Deprecated,40,Moderate
-API0079,CrowdStrike,User API,/api/v1/user,PUT,Finance,Basic,True,True,True,2025-08-12 06:03:33.497429,Zombie,60,High
-API0150,Fortinet,Customer API,/api/v1/customer,PUT,HR,JWT,True,True,True,2025-11-30 06:03:33.498593,Zombie,60,High
-API0336,PayPal,Invoice API,/api/v1/invoice,PUT,DevOps,None,True,True,True,2026-01-20 06:03:33.500197,Active,60,High
-API0209,Deloitte,Customer API,/api/v1/customer,PUT,CRM,API Key,False,True,False,2026-01-22 06:03:33.499041,Deprecated,40,Moderate
-API0069,Cisco,CRM API,/api/v1/crm,GET,Storage,Basic,False,False,True,2026-03-09 06:03:33.497358,Active,80,High
-API0251,Okta,Storage API,/api/v1/storage,DELETE,Finance,JWT,True,False,False,2026-04-13 06:03:33.499347,Active,10,Low
-API0064,Cisco,File Upload API,/api/v1/file-upload,GET,Finance,Basic,False,True,True,2025-08-06 06:03:33.497325,Zombie,90,Critical
-API0235,KPMG,Email API,/api/v1/email,PUT,Storage,JWT,True,False,True,2026-01-18 06:03:33.499232,Active,50,Moderate
-API0210,Deloitte,Analytics API,/api/v1/analytics,GET,Payments,Basic,True,False,False,2025-08-28 06:03:33.499048,Deprecated,20,Low
-API0083,CrowdStrike,Billing API,/api/v1/billing,POST,Finance,API Key,False,True,False,2025-09-06 06:03:33.497472,Deprecated,40,Moderate
-API0193,EY,Logging API,/api/v1/logging,PUT,Analytics,None,False,True,False,2026-02-15 06:03:33.498923,Deprecated,60,High
-API0034,Google Cloud,Authorization API,/api/v1/authorization,GET,Payments,API Key,True,False,False,2025-08-30 06:03:33.497117,Deprecated,20,Low
-API0085,CrowdStrike,Database API,/api/v1/database,POST,Storage,Basic,False,False,True,2026-01-01 06:03:33.497485,Active,80,High
-API0178,Snowflake,Analytics API,/api/v1/analytics,GET,Payments,API Key,True,False,True,2025-11-04 06:03:33.498816,Zombie,70,High
-API0001,Check Point,Database API,/api/v1/database,POST,Finance,JWT,True,False,False,2025-12-10 06:03:33.496832,Deprecated,20,Low
-API0012,Check Point,Billing API,/api/v1/billing,POST,DevOps,Basic,False,True,False,2025-12-04 06:03:33.496939,Deprecated,40,Moderate
-API0473,Databricks,Recommendation API,/api/v1/recommendation,GET,Identity,OAuth2,False,False,True,2026-03-07 06:03:33.502010,Active,80,High
-API0023,AWS,Profile API,/api/v1/profile,GET,Storage,None,True,True,False,2026-01-31 06:03:33.497037,Deprecated,30,Moderate
-API0357,Zscaler,File Upload API,/api/v1/file-upload,GET,Analytics,OAuth2,True,False,True,2026-05-29 06:03:33.500396,Active,50,Moderate
-API0091,Cloudflare,Profile API,/api/v1/profile,POST,Analytics,Basic,True,False,False,2025-07-29 06:03:33.497534,Deprecated,20,Low
-API0090,CrowdStrike,Recommendation API,/api/v1/recommendation,DELETE,Identity,API Key,False,False,False,2025-10-01 06:03:33.497521,Deprecated,50,Moderate
-API0154,Palo Alto Networks,Invoice API,/api/v1/invoice,DELETE,Payments,JWT,True,False,True,2026-04-09 06:03:33.498637,Active,50,Moderate
-API0278,Trend Micro,Logging API,/api/v1/logging,DELETE,Analytics,JWT,False,False,False,2026-02-17 06:03:33.499603,Deprecated,50,Moderate
-API0138,Fortinet,File Upload API,/api/v1/file-upload,DELETE,CRM,OAuth2,False,True,True,2026-01-16 06:03:33.497872,Active,70,High
-API0377,Visa,Notification API,/api/v1/notification,POST,Identity,JWT,True,False,True,2026-05-05 06:03:33.500629,Active,50,Moderate
-API0132,IBM Cloud,User API,/api/v1/user,DELETE,Storage,JWT,True,True,False,2026-03-24 06:03:33.497827,Active,0,Low
-API0430,Workday,Authorization API,/api/v1/authorization,POST,CRM,None,True,False,True,2026-03-20 06:03:33.501494,Active,70,High
-API0019,AWS,File Upload API,/api/v1/file-upload,GET,Payments,OAuth2,False,True,True,2025-08-28 06:03:33.497005,Zombie,90,Critical
-API0281,Trend Micro,Storage API,/api/v1/storage,PUT,Finance,OAuth2,False,True,False,2025-09-08 06:03:33.499623,Deprecated,40,Moderate
-API0449,MongoDB,Profile API,/api/v1/profile,DELETE,Storage,OAuth2,False,True,True,2025-09-11 06:03:33.501746,Zombie,90,Critical
-API0016,AWS,Email API,/api/v1/email,PUT,Identity,JWT,True,False,True,2026-05-23 06:03:33.496977,Active,50,Moderate
-API0308,ServiceNow,Analytics API,/api/v1/analytics,DELETE,Finance,Basic,True,False,False,2025-07-01 06:03:33.499833,Deprecated,20,Low
-API0040,Google Cloud,File Upload API,/api/v1/file-upload,PUT,Payments,OAuth2,True,False,True,2025-09-15 06:03:33.497156,Zombie,70,High
-API0499,Mastercard,Payment API,/api/v1/payment,PUT,HR,JWT,False,True,True,2026-05-06 06:03:33.502205,Active,70,High
-API0149,Fortinet,Audit API,/api/v1/audit,DELETE,Storage,OAuth2,True,False,False,2026-03-08 06:03:33.498585,Active,10,Low
-API0047,Oracle,Profile API,/api/v1/profile,DELETE,Identity,None,True,False,False,2025-10-07 06:03:33.497208,Deprecated,40,Moderate
-API0094,Cloudflare,Customer API,/api/v1/customer,GET,Storage,OAuth2,True,True,False,2026-06-07 06:03:33.497556,Active,0,Low
-API0407,Wipro,File Upload API,/api/v1/file-upload,DELETE,Storage,API Key,False,False,False,2026-04-14 06:03:33.500858,Active,40,Moderate
-API0183,EY,CRM API,/api/v1/crm,DELETE,DevOps,JWT,True,True,False,2025-12-11 06:03:33.498856,Deprecated,10,Low
-API0245,Okta,Authorization API,/api/v1/authorization,DELETE,HR,API Key,False,False,False,2025-09-11 06:03:33.499305,Deprecated,50,Moderate
-API0540,Auth0,Authorization API,/api/v1/authorization,GET,Payments,OAuth2,False,True,True,2025-10-03 06:03:33.502555,Zombie,90,Critical
-API0391,Accenture,Analytics API,/api/v1/analytics,GET,Finance,API Key,True,False,True,2026-04-27 06:03:33.500734,Active,50,Moderate
-API0454,Ping Identity,CRM API,/api/v1/crm,DELETE,Identity,API Key,True,False,True,2025-07-01 06:03:33.501842,Zombie,70,High
-API0353,Zscaler,Audit API,/api/v1/audit,GET,DevOps,OAuth2,True,True,True,2025-11-09 06:03:33.500360,Zombie,60,High
-API0256,Oracle Cloud,Search API,/api/v1/search,POST,Storage,OAuth2,True,False,True,2026-02-04 06:03:33.499388,Active,50,Moderate
-API0306,ServiceNow,Authentication API,/api/v1/authentication,POST,Storage,OAuth2,False,True,False,2025-10-07 06:03:33.499817,Deprecated,40,Moderate
-API0519,Stripe,Storage API,/api/v1/storage,DELETE,HR,Basic,True,False,False,2025-07-21 06:03:33.502351,Deprecated,20,Low
-API0401,Accenture,Notification API,/api/v1/notification,DELETE,Analytics,None,False,False,False,2025-09-26 06:03:33.500802,Deprecated,70,High
-API0319,TCS,Authorization API,/api/v1/authorization,GET,Payments,None,True,True,False,2026-03-13 06:03:33.499913,Active,20,Low
-API0239,KPMG,File Upload API,/api/v1/file-upload,DELETE,CRM,Basic,False,False,True,2026-02-20 06:03:33.499261,Active,80,High
-API0537,Auth0,Notification API,/api/v1/notification,PUT,DevOps,OAuth2,True,True,False,2026-02-22 06:03:33.502534,Active,0,Low
-API0490,Redis,Storage API,/api/v1/storage,GET,Finance,API Key,False,False,False,2026-03-29 06:03:33.502137,Active,40,Moderate
-API0385,Visa,File Upload API,/api/v1/file-upload,DELETE,CRM,Basic,True,False,True,2025-11-17 06:03:33.500681,Zombie,70,High
-API0070,Cisco,Invoice API,/api/v1/invoice,DELETE,Payments,API Key,True,False,False,2026-05-07 06:03:33.497364,Active,10,Low
-API0383,Visa,Recommendation API,/api/v1/recommendation,POST,Finance,OAuth2,False,False,False,2025-12-18 06:03:33.500668,Deprecated,50,Moderate
-API0323,TCS,Billing API,/api/v1/billing,GET,DevOps,Basic,False,True,True,2026-02-14 06:03:33.499937,Active,70,High
-API0347,Zscaler,Profile API,/api/v1/profile,PUT,Finance,Basic,True,True,False,2026-05-10 06:03:33.500315,Active,0,Low
-API0356,Zscaler,Recommendation API,/api/v1/recommendation,GET,Finance,None,False,False,False,2025-11-18 06:03:33.500388,Deprecated,70,High
-API0156,Palo Alto Networks,Storage API,/api/v1/storage,GET,Finance,None,True,True,False,2026-05-12 06:03:33.498658,Active,20,Low
-API0248,Okta,Logging API,/api/v1/logging,DELETE,CRM,JWT,True,True,True,2025-09-26 06:03:33.499327,Zombie,60,High
-API0125,IBM Cloud,Database API,/api/v1/database,DELETE,Analytics,Basic,False,True,False,2025-10-16 06:03:33.497781,Deprecated,40,Moderate
-API0382,Visa,Audit API,/api/v1/audit,PUT,HR,JWT,True,True,False,2025-07-01 06:03:33.500661,Deprecated,10,Low
-API0205,Deloitte,Notification API,/api/v1/notification,PUT,CRM,API Key,True,True,False,2025-07-15 06:03:33.499014,Deprecated,10,Low
-API0173,Snowflake,Search API,/api/v1/search,POST,Storage,OAuth2,True,True,False,2025-09-22 06:03:33.498782,Deprecated,10,Low
-API0212,SAP,Billing API,/api/v1/billing,POST,Payments,API Key,True,False,True,2026-03-28 06:03:33.499067,Active,50,Moderate
-API0398,Accenture,Search API,/api/v1/search,POST,Finance,OAuth2,False,True,False,2025-09-16 06:03:33.500782,Deprecated,40,Moderate
-API0509,Mastercard,Invoice API,/api/v1/invoice,POST,Analytics,Basic,False,True,False,2025-08-30 06:03:33.502275,Deprecated,40,Moderate
-API0478,Databricks,CRM API,/api/v1/crm,DELETE,DevOps,OAuth2,True,False,True,2025-10-14 06:03:33.502049,Zombie,70,High
-API0211,SAP,Recommendation API,/api/v1/recommendation,PUT,Analytics,JWT,True,False,True,2025-09-30 06:03:33.499060,Zombie,70,High
-API0300,PwC,Search API,/api/v1/search,GET,HR,None,False,False,True,2025-07-25 06:03:33.499761,Zombie,100,Critical
-API0427,Workday,Customer API,/api/v1/customer,POST,Storage,JWT,True,True,False,2025-08-09 06:03:33.501461,Deprecated,10,Low
-API0020,AWS,Payment API,/api/v1/payment,POST,Payments,OAuth2,False,False,False,2026-03-12 06:03:33.497014,Active,40,Moderate
-API0368,Infosys,Database API,/api/v1/database,PUT,HR,JWT,False,False,True,2026-06-02 06:03:33.500552,Active,80,High
-API0057,Oracle,User API,/api/v1/user,GET,HR,JWT,False,True,True,2026-04-14 06:03:33.497274,Active,70,High
-API0219,SAP,Email API,/api/v1/email,DELETE,DevOps,OAuth2,False,True,False,2025-08-23 06:03:33.499114,Deprecated,40,Moderate
-API0451,Ping Identity,Analytics API,/api/v1/analytics,PUT,DevOps,Basic,False,True,False,2026-03-19 06:03:33.501787,Active,30,Moderate
-API0439,MongoDB,CRM API,/api/v1/crm,DELETE,Storage,Basic,False,True,False,2026-03-11 06:03:33.501638,Active,30,Moderate
-API0533,Auth0,Admin API,/api/v1/admin,POST,Payments,JWT,False,True,False,2026-02-06 06:03:33.502495,Deprecated,40,Moderate
-API0503,Mastercard,User API,/api/v1/user,POST,CRM,None,True,True,True,2026-04-28 06:03:33.502232,Active,60,High
-API0026,AWS,Billing API,/api/v1/billing,POST,Payments,None,False,True,True,2026-01-31 06:03:33.497056,Active,90,Critical
-API0279,Trend Micro,Notification API,/api/v1/notification,PUT,Identity,JWT,False,False,False,2025-11-22 06:03:33.499610,Deprecated,50,Moderate
-API0043,Google Cloud,Audit API,/api/v1/audit,PUT,DevOps,OAuth2,True,False,True,2025-10-03 06:03:33.497176,Zombie,70,High
-API0440,MongoDB,Authentication API,/api/v1/authentication,PUT,CRM,API Key,False,True,True,2025-12-01 06:03:33.501652,Zombie,90,Critical
-API0249,Okta,Admin API,/api/v1/admin,GET,Payments,None,True,False,True,2025-07-31 06:03:33.499334,Zombie,90,Critical
-API0433,Workday,User API,/api/v1/user,POST,Storage,Basic,True,False,True,2026-01-21 06:03:33.501546,Active,50,Moderate
-API0334,PayPal,Email API,/api/v1/email,GET,CRM,None,False,True,False,2026-01-09 06:03:33.500168,Deprecated,60,High
-API0155,Palo Alto Networks,Authorization API,/api/v1/authorization,PUT,Identity,Basic,True,False,False,2026-06-15 06:03:33.498644,Active,10,Low
-API0127,IBM Cloud,Analytics API,/api/v1/analytics,PUT,Storage,API Key,True,False,False,2025-07-06 06:03:33.497794,Deprecated,20,Low
-API0276,Trend Micro,Payment API,/api/v1/payment,POST,Finance,API Key,True,False,True,2025-07-11 06:03:33.499590,Zombie,70,High
-API0362,Infosys,Authentication API,/api/v1/authentication,POST,Identity,OAuth2,False,True,True,2026-02-13 06:03:33.500471,Active,70,High
-API0032,Google Cloud,CRM API,/api/v1/crm,DELETE,CRM,JWT,True,False,True,2025-07-29 06:03:33.497103,Zombie,70,High
-API0114,Microsoft Azure,Database API,/api/v1/database,GET,Identity,JWT,True,False,False,2025-10-12 06:03:33.497700,Deprecated,20,Low
-API0381,Visa,Logging API,/api/v1/logging,PUT,Finance,Basic,False,True,False,2026-05-19 06:03:33.500655,Active,30,Moderate
-API0474,Databricks,Billing API,/api/v1/billing,GET,Payments,None,True,False,False,2026-02-16 06:03:33.502017,Deprecated,40,Moderate
-API0370,Infosys,Invoice API,/api/v1/invoice,POST,Identity,API Key,False,False,False,2025-10-05 06:03:33.500566,Deprecated,50,Moderate
-API0058,Oracle,Billing API,/api/v1/billing,POST,Identity,OAuth2,False,True,True,2025-09-17 06:03:33.497280,Zombie,90,Critical
-API0333,PayPal,Profile API,/api/v1/profile,POST,Analytics,API Key,True,True,True,2025-09-26 06:03:33.500160,Zombie,60,High
-API0025,AWS,Recommendation API,/api/v1/recommendation,PUT,Finance,Basic,True,True,False,2025-07-10 06:03:33.497050,Deprecated,10,Low
-API0018,AWS,Search API,/api/v1/search,DELETE,Payments,None,False,True,True,2026-05-23 06:03:33.496991,Active,90,Critical
-API0457,Ping Identity,Database API,/api/v1/database,DELETE,Payments,Basic,False,False,True,2026-03-24 06:03:33.501884,Active,80,High
-API0067,Cisco,Payment API,/api/v1/payment,DELETE,Storage,None,True,False,False,2026-03-22 06:03:33.497345,Active,30,Moderate
-API0229,KPMG,Admin API,/api/v1/admin,POST,Identity,None,False,True,True,2026-02-04 06:03:33.499192,Active,90,Critical
-API0483,Redis,Logging API,/api/v1/logging,POST,Analytics,OAuth2,False,False,False,2026-05-19 06:03:33.502090,Active,40,Moderate
-API0514,Stripe,Authentication API,/api/v1/authentication,GET,CRM,OAuth2,False,True,True,2025-08-31 06:03:33.502314,Zombie,90,Critical
-API0443,MongoDB,Analytics API,/api/v1/analytics,PUT,Identity,JWT,True,True,True,2026-01-06 06:03:33.501682,Active,40,Moderate
-API0095,Cloudflare,Audit API,/api/v1/audit,PUT,HR,OAuth2,False,False,False,2025-10-20 06:03:33.497562,Deprecated,50,Moderate
-API0185,EY,Billing API,/api/v1/billing,DELETE,Analytics,None,False,False,True,2025-09-24 06:03:33.498869,Zombie,100,Critical
-API0292,PwC,User API,/api/v1/user,PUT,Payments,Basic,False,True,False,2025-08-05 06:03:33.499707,Deprecated,40,Moderate
-API0024,AWS,Storage API,/api/v1/storage,POST,Storage,JWT,False,False,False,2025-09-27 06:03:33.497043,Deprecated,50,Moderate
-API0266,Oracle Cloud,Email API,/api/v1/email,POST,CRM,API Key,False,True,True,2025-09-27 06:03:33.499514,Zombie,90,Critical
-API0288,PwC,CRM API,/api/v1/crm,DELETE,CRM,Basic,False,True,True,2025-09-27 06:03:33.499680,Zombie,90,Critical
-API0484,Redis,Email API,/api/v1/email,PUT,Payments,Basic,False,False,True,2026-06-18 06:03:33.502096,Active,80,High
-API0006,Check Point,Email API,/api/v1/email,GET,Identity,Basic,True,True,True,2026-05-01 06:03:33.496896,Active,40,Moderate
-API0117,Microsoft Azure,Notification API,/api/v1/notification,DELETE,Finance,JWT,False,False,True,2025-08-13 06:03:33.497720,Zombie,100,Critical
-API0046,Oracle,Authentication API,/api/v1/authentication,GET,Payments,API Key,True,False,False,2026-06-08 06:03:33.497201,Active,10,Low
-API0232,KPMG,Database API,/api/v1/database,POST,DevOps,None,True,False,True,2026-01-21 06:03:33.499211,Active,70,High
-API0305,ServiceNow,Customer API,/api/v1/customer,PUT,Storage,OAuth2,False,False,False,2026-03-24 06:03:33.499809,Active,40,Moderate
-API0017,AWS,Logging API,/api/v1/logging,POST,Payments,API Key,True,False,False,2025-08-30 06:03:33.496984,Deprecated,20,Low
-API0049,Oracle,Analytics API,/api/v1/analytics,DELETE,Identity,Basic,False,True,True,2025-12-06 06:03:33.497221,Zombie,90,Critical
-API0396,Accenture,Admin API,/api/v1/admin,POST,Finance,OAuth2,True,True,True,2025-10-01 06:03:33.500768,Zombie,60,High
-API0004,Check Point,Recommendation API,/api/v1/recommendation,GET,Storage,Basic,True,False,True,2025-07-15 06:03:33.496880,Zombie,70,High
-API0413,Wipro,Search API,/api/v1/search,GET,Finance,None,False,False,True,2025-11-05 06:03:33.500954,Zombie,100,Critical
-API0223,SAP,CRM API,/api/v1/crm,GET,Payments,OAuth2,True,False,False,2025-11-28 06:03:33.499140,Deprecated,20,Low
-API0061,Cisco,Analytics API,/api/v1/analytics,GET,HR,None,True,True,False,2026-06-10 06:03:33.497305,Active,20,Low
-API0520,Stripe,CRM API,/api/v1/crm,GET,DevOps,API Key,True,True,True,2026-01-15 06:03:33.502357,Active,40,Moderate
-API0111,Microsoft Azure,Analytics API,/api/v1/analytics,PUT,DevOps,OAuth2,True,False,False,2025-12-28 06:03:33.497680,Deprecated,20,Low
-API0354,Zscaler,Database API,/api/v1/database,DELETE,Payments,OAuth2,True,True,True,2025-09-28 06:03:33.500368,Zombie,60,High
-API0290,PwC,Admin API,/api/v1/admin,GET,Analytics,API Key,False,True,True,2026-03-26 06:03:33.499692,Active,70,High
-API0030,AWS,CRM API,/api/v1/crm,DELETE,DevOps,JWT,False,False,False,2026-02-24 06:03:33.497081,Active,40,Moderate
-API0530,Auth0,Invoice API,/api/v1/invoice,DELETE,Finance,API Key,True,True,True,2025-09-15 06:03:33.502431,Zombie,60,High
-API0453,Ping Identity,Logging API,/api/v1/logging,PUT,DevOps,Basic,False,True,False,2026-04-21 06:03:33.501811,Active,30,Moderate
-API0027,AWS,Database API,/api/v1/database,DELETE,Analytics,Basic,True,True,True,2025-09-28 06:03:33.497062,Zombie,60,High
-API0008,Check Point,Payment API,/api/v1/payment,PUT,Analytics,None,True,False,True,2025-10-25 06:03:33.496910,Zombie,90,Critical
-API0182,EY,Storage API,/api/v1/storage,DELETE,Finance,API Key,True,False,False,2026-05-08 06:03:33.498850,Active,10,Low
-API0501,Mastercard,Audit API,/api/v1/audit,POST,DevOps,OAuth2,False,False,True,2026-05-21 06:03:33.502218,Active,80,High
-API0109,Microsoft Azure,Recommendation API,/api/v1/recommendation,DELETE,HR,JWT,True,False,False,2026-01-20 06:03:33.497666,Deprecated,20,Low
-API0038,Google Cloud,Invoice API,/api/v1/invoice,POST,CRM,JWT,True,False,False,2026-01-18 06:03:33.497142,Deprecated,20,Low
-API0158,Palo Alto Networks,Database API,/api/v1/database,PUT,Payments,OAuth2,True,True,True,2025-10-09 06:03:33.498671,Zombie,60,High
-API0515,Stripe,Email API,/api/v1/email,POST,Storage,JWT,True,True,False,2025-11-30 06:03:33.502321,Deprecated,10,Low
-API0119,Microsoft Azure,Profile API,/api/v1/profile,DELETE,DevOps,Basic,False,True,True,2026-06-03 06:03:33.497733,Active,70,High
-API0115,Microsoft Azure,Authentication API,/api/v1/authentication,DELETE,DevOps,OAuth2,False,False,False,2025-12-07 06:03:33.497707,Deprecated,50,Moderate
-API0287,PwC,Profile API,/api/v1/profile,POST,Finance,JWT,False,False,False,2025-09-21 06:03:33.499673,Deprecated,50,Moderate
-API0204,Deloitte,Email API,/api/v1/email,POST,Analytics,Basic,True,True,True,2026-05-21 06:03:33.499007,Active,40,Moderate
-API0176,Snowflake,User API,/api/v1/user,PUT,Payments,API Key,False,True,True,2026-01-28 06:03:33.498804,Active,70,High
-API0226,KPMG,Invoice API,/api/v1/invoice,PUT,Identity,API Key,False,False,False,2025-07-07 06:03:33.499172,Deprecated,50,Moderate
-API0221,SAP,Database API,/api/v1/database,PUT,CRM,JWT,False,False,False,2025-10-21 06:03:33.499127,Deprecated,50,Moderate
-API0145,Fortinet,Analytics API,/api/v1/analytics,DELETE,Identity,None,False,False,False,2026-01-05 06:03:33.498557,Deprecated,70,High
-API0195,EY,User API,/api/v1/user,DELETE,Analytics,API Key,False,True,False,2025-08-17 06:03:33.498936,Deprecated,40,Moderate
-API0409,Wipro,Profile API,/api/v1/profile,GET,Analytics,Basic,True,True,False,2026-04-10 06:03:33.500907,Active,0,Low
-API0421,Workday,Audit API,/api/v1/audit,DELETE,Finance,OAuth2,True,True,True,2026-01-02 06:03:33.501367,Active,40,Moderate
-API0238,KPMG,Authentication API,/api/v1/authentication,GET,Storage,OAuth2,True,True,True,2025-09-02 06:03:33.499254,Zombie,60,High
-API0282,Trend Micro,CRM API,/api/v1/crm,PUT,Storage,OAuth2,False,True,True,2025-08-21 06:03:33.499630,Zombie,90,Critical
-API0404,Accenture,Payment API,/api/v1/payment,GET,Storage,None,True,True,True,2025-09-17 06:03:33.500824,Zombie,80,High
-API0523,Stripe,Search API,/api/v1/search,GET,Finance,Basic,True,False,True,2025-09-13 06:03:33.502376,Zombie,70,High
-API0142,Fortinet,Invoice API,/api/v1/invoice,GET,Identity,OAuth2,False,False,False,2025-10-21 06:03:33.498511,Deprecated,50,Moderate
-API0405,Accenture,Email API,/api/v1/email,GET,HR,JWT,True,False,False,2025-06-28 06:03:33.500831,Deprecated,20,Low
-API0068,Cisco,Authorization API,/api/v1/authorization,POST,CRM,None,True,False,True,2025-10-30 06:03:33.497351,Zombie,90,Critical
-API0297,PwC,Authentication API,/api/v1/authentication,GET,Finance,JWT,True,True,False,2026-01-22 06:03:33.499742,Deprecated,10,Low
-API0228,KPMG,Notification API,/api/v1/notification,POST,DevOps,OAuth2,True,False,True,2025-11-09 06:03:33.499185,Zombie,70,High
-API0169,Snowflake,Admin API,/api/v1/admin,PUT,Analytics,OAuth2,True,False,True,2026-05-12 06:03:33.498755,Active,50,Moderate
-API0189,EY,Authentication API,/api/v1/authentication,GET,Payments,API Key,False,False,False,2025-08-31 06:03:33.498898,Deprecated,50,Moderate
-API0517,Stripe,Customer API,/api/v1/customer,POST,Analytics,None,False,True,False,2025-12-17 06:03:33.502337,Deprecated,60,High
-API0416,Wipro,Database API,/api/v1/database,GET,Analytics,JWT,False,True,False,2026-05-21 06:03:33.500998,Active,30,Moderate
-API0417,Wipro,Audit API,/api/v1/audit,PUT,CRM,API Key,True,True,True,2026-01-13 06:03:33.501149,Active,40,Moderate
-API0194,EY,Payment API,/api/v1/payment,GET,HR,None,False,True,True,2025-12-24 06:03:33.498929,Active,90,Critical
-API0082,CrowdStrike,Authentication API,/api/v1/authentication,POST,Finance,JWT,False,True,True,2025-11-14 06:03:33.497465,Zombie,90,Critical
-API0110,Microsoft Azure,Admin API,/api/v1/admin,POST,Payments,API Key,False,True,True,2026-02-12 06:03:33.497673,Active,70,High
-API0321,TCS,Recommendation API,/api/v1/recommendation,PUT,Identity,Basic,True,True,True,2025-11-09 06:03:33.499925,Zombie,60,High
-API0146,Fortinet,Database API,/api/v1/database,POST,Payments,API Key,True,False,False,2026-02-06 06:03:33.498564,Deprecated,20,Low
-API0093,Cloudflare,File Upload API,/api/v1/file-upload,DELETE,Finance,API Key,True,False,True,2025-09-06 06:03:33.497548,Zombie,70,High
-API0153,Palo Alto Networks,Audit API,/api/v1/audit,PUT,HR,JWT,False,True,False,2026-04-17 06:03:33.498631,Active,30,Moderate
-API0262,Oracle Cloud,CRM API,/api/v1/crm,PUT,Identity,JWT,False,True,True,2026-06-07 06:03:33.499427,Active,70,High
-API0435,Workday,Analytics API,/api/v1/analytics,GET,CRM,API Key,True,False,False,2025-07-19 06:03:33.501570,Deprecated,20,Low
-API0448,MongoDB,Search API,/api/v1/search,POST,Analytics,API Key,True,True,False,2025-10-21 06:03:33.501735,Deprecated,10,Low
-API0395,Accenture,Logging API,/api/v1/logging,PUT,Payments,API Key,True,False,False,2026-05-14 06:03:33.500760,Active,10,Low
-API0084,CrowdStrike,Invoice API,/api/v1/invoice,POST,Payments,OAuth2,False,False,True,2025-12-14 06:03:33.497478,Zombie,100,Critical
-API0104,Cloudflare,Search API,/api/v1/search,PUT,Payments,Basic,False,False,True,2026-05-10 06:03:33.497625,Active,80,High
-API0166,Snowflake,Audit API,/api/v1/audit,PUT,HR,API Key,False,True,False,2025-12-20 06:03:33.498735,Deprecated,40,Moderate
-API0164,Palo Alto Networks,Search API,/api/v1/search,PUT,Identity,API Key,False,True,True,2026-02-11 06:03:33.498711,Active,70,High
-API0200,Deloitte,Admin API,/api/v1/admin,PUT,DevOps,Basic,True,False,False,2025-10-13 06:03:33.498977,Deprecated,20,Low
-API0330,TCS,Customer API,/api/v1/customer,GET,Finance,OAuth2,False,False,True,2025-09-20 06:03:33.499985,Zombie,100,Critical
-API0075,Cisco,Notification API,/api/v1/notification,GET,Finance,OAuth2,True,False,True,2026-04-11 06:03:33.497395,Active,50,Moderate
-API0342,PayPal,User API,/api/v1/user,POST,Payments,None,False,False,False,2026-05-01 06:03:33.500244,Active,60,High
-API0258,Oracle Cloud,Billing API,/api/v1/billing,PUT,Payments,API Key,False,True,True,2026-03-23 06:03:33.499402,Active,70,High
-API0518,Stripe,Payment API,/api/v1/payment,PUT,Finance,JWT,False,True,False,2026-02-15 06:03:33.502344,Deprecated,40,Moderate
-API0120,Microsoft Azure,Invoice API,/api/v1/invoice,POST,Identity,API Key,True,True,False,2026-01-17 06:03:33.497740,Deprecated,10,Low
-API0311,ServiceNow,Storage API,/api/v1/storage,POST,Storage,None,True,False,False,2026-06-18 06:03:33.499852,Active,30,Moderate
-API0349,Zscaler,CRM API,/api/v1/crm,POST,Storage,Basic,False,True,False,2026-03-26 06:03:33.500330,Active,30,Moderate
-API0393,Accenture,Storage API,/api/v1/storage,PUT,HR,None,False,True,True,2026-02-10 06:03:33.500747,Active,90,Critical
-API0442,MongoDB,User API,/api/v1/user,POST,Identity,API Key,False,False,False,2025-09-27 06:03:33.501671,Deprecated,50,Moderate
-API0423,Workday,File Upload API,/api/v1/file-upload,DELETE,Storage,JWT,True,True,False,2025-07-01 06:03:33.501390,Deprecated,10,Low
-API0275,Trend Micro,Analytics API,/api/v1/analytics,POST,Payments,None,False,True,False,2026-01-12 06:03:33.499581,Deprecated,60,High
-API0365,Infosys,Admin API,/api/v1/admin,DELETE,DevOps,JWT,True,False,True,2026-05-19 06:03:33.500502,Active,50,Moderate
-API0424,Workday,Recommendation API,/api/v1/recommendation,POST,Storage,API Key,False,False,False,2026-06-17 06:03:33.501401,Active,40,Moderate
-API0303,ServiceNow,Invoice API,/api/v1/invoice,POST,Payments,OAuth2,True,True,True,2025-11-22 06:03:33.499796,Zombie,60,High
-API0037,Google Cloud,Admin API,/api/v1/admin,GET,Finance,JWT,True,True,False,2026-03-07 06:03:33.497136,Active,0,Low
-API0140,Fortinet,Authorization API,/api/v1/authorization,PUT,Storage,OAuth2,False,True,False,2026-01-25 06:03:33.497912,Deprecated,40,Moderate
-API0254,Okta,Payment API,/api/v1/payment,GET,CRM,JWT,False,True,True,2026-02-05 06:03:33.499367,Active,70,High
-API0516,Stripe,Notification API,/api/v1/notification,GET,Storage,Basic,False,False,True,2025-10-27 06:03:33.502330,Zombie,100,Critical
-API0060,Oracle,Database API,/api/v1/database,PUT,Identity,API Key,False,True,False,2025-09-19 06:03:33.497292,Deprecated,40,Moderate
-API0112,Microsoft Azure,Email API,/api/v1/email,PUT,Identity,JWT,False,True,True,2026-02-02 06:03:33.497687,Active,70,High
-API0291,PwC,Storage API,/api/v1/storage,POST,Finance,None,False,True,False,2025-10-15 06:03:33.499699,Deprecated,60,High
-API0355,Zscaler,Notification API,/api/v1/notification,GET,Storage,JWT,False,True,True,2026-01-22 06:03:33.500375,Active,70,High
-API0263,Oracle Cloud,User API,/api/v1/user,DELETE,Identity,OAuth2,False,True,False,2025-07-18 06:03:33.499434,Deprecated,40,Moderate
-API0400,Accenture,CRM API,/api/v1/crm,PUT,Finance,API Key,True,False,False,2025-07-22 06:03:33.500796,Deprecated,20,Low
-API0151,Palo Alto Networks,Admin API,/api/v1/admin,DELETE,DevOps,JWT,True,True,False,2025-10-20 06:03:33.498616,Deprecated,10,Low
-API0267,Oracle Cloud,Admin API,/api/v1/admin,DELETE,Payments,None,True,True,True,2025-09-28 06:03:33.499521,Zombie,80,High
-API0422,Workday,Logging API,/api/v1/logging,POST,DevOps,Basic,False,True,True,2025-07-08 06:03:33.501379,Zombie,90,Critical
-API0039,Google Cloud,Storage API,/api/v1/storage,PUT,Storage,OAuth2,False,False,True,2025-09-08 06:03:33.497149,Zombie,100,Critical
-API0348,Zscaler,Invoice API,/api/v1/invoice,POST,Identity,None,False,True,False,2026-03-10 06:03:33.500322,Active,50,Moderate
-API0199,Deloitte,Payment API,/api/v1/payment,POST,HR,None,True,False,False,2025-10-16 06:03:33.498971,Deprecated,40,Moderate
-API0285,Trend Micro,Invoice API,/api/v1/invoice,GET,CRM,Basic,True,True,False,2025-11-22 06:03:33.499652,Deprecated,10,Low
-API0147,Fortinet,User API,/api/v1/user,PUT,Identity,OAuth2,True,True,True,2026-04-15 06:03:33.498572,Active,40,Moderate
-API0434,Workday,Profile API,/api/v1/profile,GET,HR,JWT,True,True,True,2025-08-29 06:03:33.501558,Zombie,60,High
-API0148,Fortinet,Email API,/api/v1/email,DELETE,Payments,None,False,True,True,2025-07-30 06:03:33.498579,Zombie,100,Critical
-API0450,MongoDB,Billing API,/api/v1/billing,POST,DevOps,Basic,False,False,True,2026-01-18 06:03:33.501756,Active,80,High
-API0486,Redis,User API,/api/v1/user,PUT,CRM,Basic,False,False,False,2025-10-29 06:03:33.502111,Deprecated,50,Moderate
-API0124,IBM Cloud,Search API,/api/v1/search,GET,Storage,JWT,False,False,True,2025-07-18 06:03:33.497774,Zombie,100,Critical
-API0408,Wipro,Storage API,/api/v1/storage,POST,Analytics,None,True,True,False,2025-10-11 06:03:33.500865,Deprecated,30,Moderate
-API0097,Cloudflare,Payment API,/api/v1/payment,POST,CRM,API Key,True,False,True,2026-02-08 06:03:33.497576,Active,50,Moderate
-API0144,Fortinet,Admin API,/api/v1/admin,POST,Storage,None,False,False,False,2026-05-09 06:03:33.498549,Active,60,High
-API0240,KPMG,Logging API,/api/v1/logging,PUT,Finance,None,False,False,False,2026-03-11 06:03:33.499267,Active,60,High
-API0302,ServiceNow,Notification API,/api/v1/notification,PUT,Finance,None,True,True,True,2025-07-02 06:03:33.499789,Zombie,80,High
-API0098,Cloudflare,Database API,/api/v1/database,PUT,Finance,OAuth2,True,False,False,2026-03-09 06:03:33.497583,Active,10,Low
-API0437,MongoDB,Admin API,/api/v1/admin,POST,Identity,API Key,True,True,False,2026-01-07 06:03:33.501616,Deprecated,10,Low
-API0294,PwC,Analytics API,/api/v1/analytics,GET,HR,None,True,False,True,2026-02-07 06:03:33.499720,Active,70,High
-API0389,Visa,Admin API,/api/v1/admin,POST,DevOps,API Key,False,False,True,2025-09-08 06:03:33.500712,Zombie,100,Critical
-API0123,IBM Cloud,File Upload API,/api/v1/file-upload,GET,CRM,None,True,True,False,2025-09-25 06:03:33.497767,Deprecated,30,Moderate
-API0184,EY,Recommendation API,/api/v1/recommendation,PUT,Payments,OAuth2,False,False,True,2025-08-12 06:03:33.498863,Zombie,100,Critical
-API0203,Deloitte,Audit API,/api/v1/audit,GET,DevOps,OAuth2,True,True,False,2026-02-08 06:03:33.499001,Deprecated,10,Low
-API0247,Okta,Database API,/api/v1/database,GET,Analytics,None,False,True,True,2026-01-24 06:03:33.499321,Active,90,Critical
-API0339,PayPal,Authorization API,/api/v1/authorization,PUT,Identity,None,False,False,False,2025-09-14 06:03:33.500219,Deprecated,70,High
-API0491,Redis,Authentication API,/api/v1/authentication,PUT,DevOps,None,False,True,False,2025-07-19 06:03:33.502143,Deprecated,60,High
-API0463,Ping Identity,Invoice API,/api/v1/invoice,GET,CRM,API Key,True,False,False,2025-09-12 06:03:33.501926,Deprecated,20,Low
-API0332,PayPal,Search API,/api/v1/search,GET,Storage,JWT,True,True,True,2025-10-03 06:03:33.500148,Zombie,60,High
-API0438,MongoDB,Authorization API,/api/v1/authorization,PUT,Payments,API Key,True,False,True,2026-06-09 06:03:33.501627,Active,50,Moderate
-API0313,ServiceNow,CRM API,/api/v1/crm,GET,Payments,OAuth2,True,True,True,2026-05-21 06:03:33.499864,Active,40,Moderate
-API0126,IBM Cloud,Notification API,/api/v1/notification,GET,Identity,JWT,True,False,False,2026-02-02 06:03:33.497788,Deprecated,20,Low
-API0335,PayPal,Payment API,/api/v1/payment,POST,Finance,OAuth2,True,False,True,2026-01-09 06:03:33.500177,Active,50,Moderate
-API0224,SAP,Customer API,/api/v1/customer,DELETE,Storage,API Key,False,True,False,2025-12-12 06:03:33.499147,Deprecated,40,Moderate
-API0462,Ping Identity,Customer API,/api/v1/customer,GET,Payments,API Key,True,True,True,2026-05-09 06:03:33.501920,Active,40,Moderate
-API0220,SAP,Analytics API,/api/v1/analytics,DELETE,Storage,OAuth2,True,True,True,2025-12-23 06:03:33.499121,Active,40,Moderate
-API0130,IBM Cloud,CRM API,/api/v1/crm,PUT,Finance,Basic,True,False,False,2026-06-16 06:03:33.497814,Active,10,Low
-API0507,Mastercard,Database API,/api/v1/database,POST,CRM,JWT,False,True,False,2026-05-23 06:03:33.502263,Active,30,Moderate
-API0324,TCS,Search API,/api/v1/search,GET,DevOps,OAuth2,False,True,True,2026-05-29 06:03:33.499943,Active,70,High
-API0500,Mastercard,Notification API,/api/v1/notification,PUT,Finance,API Key,False,True,False,2025-09-09 06:03:33.502212,Deprecated,40,Moderate
-API0418,Wipro,CRM API,/api/v1/crm,DELETE,Identity,None,True,True,True,2026-04-05 06:03:33.501295,Active,60,High
-API0497,Mastercard,Logging API,/api/v1/logging,DELETE,HR,Basic,False,False,True,2025-09-22 06:03:33.502191,Zombie,100,Critical
-API0394,Accenture,User API,/api/v1/user,POST,HR,OAuth2,False,False,True,2025-11-13 06:03:33.500753,Zombie,100,Critical
-API0325,TCS,Audit API,/api/v1/audit,POST,Storage,JWT,True,False,False,2025-06-23 06:03:33.499950,Deprecated,20,Low
-API0295,PwC,Customer API,/api/v1/customer,DELETE,Analytics,Basic,True,False,True,2026-02-06 06:03:33.499727,Active,50,Moderate
-API0406,Wipro,User API,/api/v1/user,DELETE,Finance,OAuth2,True,True,True,2026-05-04 06:03:33.500848,Active,40,Moderate
-API0376,Visa,Authentication API,/api/v1/authentication,DELETE,DevOps,Basic,True,True,False,2026-05-16 06:03:33.500622,Active,0,Low
-API0337,PayPal,Storage API,/api/v1/storage,GET,Identity,None,False,False,True,2025-12-18 06:03:33.500205,Zombie,100,Critical
-API0113,Microsoft Azure,Billing API,/api/v1/billing,GET,Finance,None,True,True,False,2025-10-28 06:03:33.497694,Deprecated,30,Moderate
-API0180,Snowflake,File Upload API,/api/v1/file-upload,DELETE,Analytics,API Key,True,False,False,2025-12-23 06:03:33.498830,Deprecated,20,Low
-API0341,PayPal,Audit API,/api/v1/audit,GET,DevOps,Basic,True,False,False,2025-10-25 06:03:33.500237,Deprecated,20,Low
-API0375,Infosys,Customer API,/api/v1/customer,GET,DevOps,API Key,False,True,False,2025-12-02 06:03:33.500604,Deprecated,40,Moderate
-API0366,Infosys,Email API,/api/v1/email,PUT,Payments,None,True,True,False,2025-11-30 06:03:33.500537,Deprecated,30,Moderate
-API0315,ServiceNow,Payment API,/api/v1/payment,GET,Storage,None,True,False,True,2025-08-24 06:03:33.499876,Zombie,90,Critical
-API0152,Palo Alto Networks,Payment API,/api/v1/payment,GET,Payments,API Key,False,True,False,2026-06-04 06:03:33.498623,Active,30,Moderate
-API0399,Accenture,Customer API,/api/v1/customer,PUT,Identity,API Key,True,True,True,2026-02-27 06:03:33.500789,Active,40,Moderate
-API0234,KPMG,User API,/api/v1/user,GET,Analytics,Basic,False,True,True,2026-02-09 06:03:33.499225,Active,70,High
-API0494,Redis,Database API,/api/v1/database,POST,Identity,JWT,False,False,True,2026-01-29 06:03:33.502163,Active,80,High
-API0426,Workday,Storage API,/api/v1/storage,POST,Identity,Basic,False,False,True,2026-02-20 06:03:33.501433,Active,80,High
-API0165,Palo Alto Networks,Email API,/api/v1/email,PUT,HR,OAuth2,True,False,False,2025-11-11 06:03:33.498718,Deprecated,20,Low
-API0318,TCS,Admin API,/api/v1/admin,PUT,Payments,JWT,True,True,False,2026-02-28 06:03:33.499906,Active,0,Low
-API0137,Fortinet,Authentication API,/api/v1/authentication,POST,CRM,API Key,False,False,False,2025-07-27 06:03:33.497865,Deprecated,50,Moderate
-API0198,Deloitte,File Upload API,/api/v1/file-upload,GET,Storage,Basic,True,True,True,2025-08-16 06:03:33.498964,Zombie,60,High
-API0259,Oracle Cloud,Authentication API,/api/v1/authentication,POST,CRM,Basic,False,False,True,2026-03-02 06:03:33.499408,Active,80,High
-API0233,KPMG,Customer API,/api/v1/customer,PUT,HR,API Key,False,False,False,2025-12-21 06:03:33.499218,Deprecated,50,Moderate
-API0116,Microsoft Azure,Customer API,/api/v1/customer,GET,Identity,OAuth2,True,True,True,2025-09-24 06:03:33.497714,Zombie,60,High
-API0121,IBM Cloud,Payment API,/api/v1/payment,GET,Analytics,None,False,False,False,2026-06-01 06:03:33.497753,Active,60,High
-API0387,Visa,Profile API,/api/v1/profile,POST,Identity,Basic,False,False,False,2025-11-03 06:03:33.500698,Deprecated,50,Moderate
-API0225,SAP,Authorization API,/api/v1/authorization,DELETE,DevOps,None,True,True,True,2026-03-31 06:03:33.499153,Active,60,High
-API0445,MongoDB,Recommendation API,/api/v1/recommendation,GET,CRM,Basic,True,True,False,2026-02-27 06:03:33.501702,Active,0,Low
-API0528,Auth0,Storage API,/api/v1/storage,PUT,Analytics,JWT,True,True,False,2026-04-05 06:03:33.502417,Active,0,Low
-API0128,IBM Cloud,Audit API,/api/v1/audit,POST,Analytics,None,False,True,True,2025-10-16 06:03:33.497800,Zombie,100,Critical
-API0531,Auth0,File Upload API,/api/v1/file-upload,DELETE,Payments,API Key,False,True,False,2026-03-04 06:03:33.502437,Active,30,Moderate
-API0286,PwC,Email API,/api/v1/email,POST,HR,Basic,False,False,False,2026-06-17 06:03:33.499667,Active,40,Moderate
-API0479,Databricks,Notification API,/api/v1/notification,GET,Payments,API Key,True,True,True,2026-03-18 06:03:33.502056,Active,40,Moderate
-API0513,Stripe,Admin API,/api/v1/admin,POST,DevOps,Basic,True,True,False,2026-04-21 06:03:33.502308,Active,0,Low
-API0108,Microsoft Azure,File Upload API,/api/v1/file-upload,POST,HR,API Key,False,True,True,2025-08-16 06:03:33.497658,Zombie,90,Critical
-API0539,Auth0,Email API,/api/v1/email,PUT,Storage,None,True,True,False,2025-10-06 06:03:33.502548,Deprecated,30,Moderate
-API0361,Infosys,Recommendation API,/api/v1/recommendation,POST,Finance,None,False,False,True,2025-08-21 06:03:33.500432,Zombie,100,Critical
-API0134,IBM Cloud,Logging API,/api/v1/logging,POST,Finance,API Key,False,False,True,2026-05-31 06:03:33.497840,Active,80,High
-API0403,Accenture,Authorization API,/api/v1/authorization,POST,CRM,None,True,True,True,2026-04-23 06:03:33.500817,Active,60,High
-API0045,Google Cloud,Billing API,/api/v1/billing,PUT,Identity,Basic,True,False,False,2026-02-11 06:03:33.497189,Deprecated,20,Low
-API0510,Mastercard,CRM API,/api/v1/crm,PUT,Analytics,API Key,True,True,False,2026-01-23 06:03:33.502282,Deprecated,10,Low
-API0066,Cisco,Billing API,/api/v1/billing,PUT,Analytics,JWT,False,False,True,2026-05-04 06:03:33.497338,Active,80,High
-API0284,Trend Micro,Database API,/api/v1/database,GET,Analytics,OAuth2,False,False,True,2025-12-02 06:03:33.499645,Zombie,100,Critical
-API0086,CrowdStrike,CRM API,/api/v1/crm,GET,CRM,API Key,False,True,True,2025-08-22 06:03:33.497491,Zombie,90,Critical
-API0243,Okta,Customer API,/api/v1/customer,PUT,CRM,JWT,True,False,False,2025-11-15 06:03:33.499292,Deprecated,20,Low
-API0187,EY,Email API,/api/v1/email,DELETE,Storage,OAuth2,True,False,True,2025-12-06 06:03:33.498885,Zombie,70,High
-API0425,Workday,Billing API,/api/v1/billing,DELETE,Identity,OAuth2,False,False,True,2026-06-10 06:03:33.501411,Active,80,High
-API0160,Palo Alto Networks,Logging API,/api/v1/logging,GET,Finance,JWT,True,False,False,2025-07-08 06:03:33.498684,Deprecated,20,Low
-API0013,Check Point,Notification API,/api/v1/notification,DELETE,Analytics,Basic,True,False,False,2026-01-08 06:03:33.496947,Deprecated,20,Low
-API0036,Google Cloud,Analytics API,/api/v1/analytics,GET,Identity,OAuth2,True,False,False,2025-10-29 06:03:33.497130,Deprecated,20,Low
-API0029,AWS,Analytics API,/api/v1/analytics,PUT,Finance,API Key,False,False,True,2025-11-11 06:03:33.497075,Zombie,100,Critical
-API0171,Snowflake,Authentication API,/api/v1/authentication,PUT,CRM,Basic,False,True,False,2026-05-02 06:03:33.498768,Active,30,Moderate
-API0143,Fortinet,Recommendation API,/api/v1/recommendation,POST,CRM,OAuth2,True,True,False,2025-08-31 06:03:33.498539,Deprecated,10,Low
-API0441,MongoDB,Customer API,/api/v1/customer,POST,Identity,OAuth2,False,True,True,2026-05-18 06:03:33.501662,Active,70,High
-API0378,Visa,Storage API,/api/v1/storage,POST,Payments,Basic,True,False,True,2026-01-10 06:03:33.500635,Active,50,Moderate
-API0222,SAP,User API,/api/v1/user,PUT,Storage,API Key,False,True,True,2025-08-03 06:03:33.499133,Zombie,90,Critical
-API0096,Cloudflare,Notification API,/api/v1/notification,DELETE,Analytics,None,False,False,False,2025-11-15 06:03:33.497569,Deprecated,70,High
-API0052,Oracle,Payment API,/api/v1/payment,POST,Identity,API Key,False,True,True,2025-10-28 06:03:33.497241,Zombie,90,Critical
-API0241,Okta,User API,/api/v1/user,GET,Identity,None,False,False,False,2026-02-03 06:03:33.499280,Deprecated,70,High
-API0412,Wipro,Invoice API,/api/v1/invoice,PUT,HR,OAuth2,True,False,True,2025-07-02 06:03:33.500944,Zombie,70,High
-API0352,Zscaler,Authorization API,/api/v1/authorization,GET,Analytics,OAuth2,True,False,False,2025-07-14 06:03:33.500352,Deprecated,20,Low
-API0468,Databricks,Profile API,/api/v1/profile,POST,Storage,JWT,False,False,True,2026-04-09 06:03:33.501972,Active,80,High
-API0179,Snowflake,Billing API,/api/v1/billing,PUT,Storage,OAuth2,False,False,False,2025-11-02 06:03:33.498823,Deprecated,50,Moderate
-API0432,Workday,Email API,/api/v1/email,GET,Payments,JWT,False,True,False,2025-07-12 06:03:33.501517,Deprecated,40,Moderate
-API0042,Google Cloud,Email API,/api/v1/email,POST,DevOps,JWT,False,True,True,2026-05-10 06:03:33.497170,Active,70,High
-API0482,Redis,Search API,/api/v1/search,GET,Finance,API Key,True,True,True,2025-07-10 06:03:33.502083,Zombie,60,High
-API0429,Workday,Search API,/api/v1/search,DELETE,DevOps,JWT,False,True,True,2025-12-26 06:03:33.501483,Active,70,High
-API0207,Deloitte,Database API,/api/v1/database,DELETE,DevOps,None,False,False,True,2025-09-05 06:03:33.499029,Zombie,100,Critical
-API0283,Trend Micro,File Upload API,/api/v1/file-upload,DELETE,Identity,API Key,False,False,False,2025-07-09 06:03:33.499637,Deprecated,50,Moderate
-API0359,Zscaler,Admin API,/api/v1/admin,PUT,Analytics,API Key,True,False,False,2026-03-28 06:03:33.500410,Active,10,Low
-API0255,Okta,Search API,/api/v1/search,GET,Storage,None,False,False,False,2025-07-24 06:03:33.499373,Deprecated,70,High
-API0456,Ping Identity,Storage API,/api/v1/storage,POST,Identity,Basic,False,True,True,2026-05-31 06:03:33.501868,Active,70,High
-API0005,Check Point,Profile API,/api/v1/profile,POST,Finance,Basic,False,False,True,2025-09-24 06:03:33.496888,Zombie,100,Critical
-API0257,Oracle Cloud,Authorization API,/api/v1/authorization,DELETE,HR,Basic,False,False,True,2025-11-10 06:03:33.499395,Zombie,100,Critical
-API0496,Mastercard,Billing API,/api/v1/billing,PUT,CRM,API Key,False,True,False,2026-04-16 06:03:33.502186,Active,30,Moderate
-API0101,Cloudflare,Authentication API,/api/v1/authentication,PUT,Storage,OAuth2,False,True,False,2025-07-28 06:03:33.497603,Deprecated,40,Moderate
-API0227,KPMG,Analytics API,/api/v1/analytics,POST,DevOps,None,True,False,False,2026-06-15 06:03:33.499179,Active,30,Moderate
-API0471,Databricks,Audit API,/api/v1/audit,GET,Storage,OAuth2,True,True,False,2025-06-26 06:03:33.501997,Deprecated,10,Low
-API0214,SAP,Invoice API,/api/v1/invoice,POST,Finance,OAuth2,False,False,False,2025-12-04 06:03:33.499079,Deprecated,50,Moderate
-API0466,Databricks,Email API,/api/v1/email,DELETE,DevOps,JWT,True,True,True,2025-08-28 06:03:33.501959,Zombie,60,High
-API0172,Snowflake,Storage API,/api/v1/storage,DELETE,Finance,OAuth2,True,True,True,2025-09-19 06:03:33.498775,Zombie,60,High
-API0099,Cloudflare,Storage API,/api/v1/storage,DELETE,DevOps,Basic,True,False,False,2025-08-11 06:03:33.497590,Deprecated,20,Low
-API0293,PwC,Recommendation API,/api/v1/recommendation,GET,CRM,API Key,False,False,False,2025-07-03 06:03:33.499713,Deprecated,50,Moderate
-API0216,SAP,Audit API,/api/v1/audit,POST,CRM,Basic,True,False,False,2026-02-05 06:03:33.499094,Deprecated,20,Low
-API0062,Cisco,Audit API,/api/v1/audit,GET,Storage,Basic,True,False,False,2026-01-30 06:03:33.497312,Deprecated,20,Low
-API0048,Oracle,File Upload API,/api/v1/file-upload,GET,Payments,OAuth2,False,True,True,2026-05-06 06:03:33.497215,Active,70,High
-API0033,Google Cloud,Recommendation API,/api/v1/recommendation,DELETE,CRM,Basic,False,False,True,2025-08-12 06:03:33.497110,Zombie,100,Critical
-API0268,Oracle Cloud,File Upload API,/api/v1/file-upload,GET,CRM,Basic,True,False,True,2026-02-26 06:03:33.499527,Active,50,Moderate
-API0328,TCS,Profile API,/api/v1/profile,GET,HR,Basic,False,True,True,2025-12-20 06:03:33.499972,Zombie,90,Critical
-API0201,Deloitte,Authentication API,/api/v1/authentication,PUT,Payments,OAuth2,False,False,True,2026-01-05 06:03:33.498983,Active,80,High
-API0493,Redis,Analytics API,/api/v1/analytics,PUT,Identity,JWT,True,False,False,2026-03-25 06:03:33.502156,Active,10,Low
-API0028,AWS,Audit API,/api/v1/audit,GET,HR,JWT,True,True,True,2025-07-13 06:03:33.497069,Zombie,60,High
-API0472,Databricks,Admin API,/api/v1/admin,GET,HR,OAuth2,True,False,False,2025-08-02 06:03:33.502003,Deprecated,20,Low
-API0231,KPMG,Search API,/api/v1/search,GET,Identity,Basic,False,True,True,2026-03-28 06:03:33.499204,Active,70,High
-API0261,Oracle Cloud,Recommendation API,/api/v1/recommendation,PUT,Finance,None,False,False,False,2025-09-09 06:03:33.499421,Deprecated,70,High
-API0379,Visa,Billing API,/api/v1/billing,POST,DevOps,None,False,False,False,2025-10-01 06:03:33.500642,Deprecated,70,High
-API0289,PwC,File Upload API,/api/v1/file-upload,DELETE,Identity,OAuth2,True,False,True,2025-06-27 06:03:33.499686,Zombie,70,High
-API0163,Palo Alto Networks,Notification API,/api/v1/notification,POST,Payments,API Key,False,False,False,2026-03-06 06:03:33.498705,Active,40,Moderate
-API0392,Accenture,Billing API,/api/v1/billing,DELETE,CRM,None,False,False,False,2025-12-10 06:03:33.500740,Deprecated,70,High
-API0469,Databricks,Payment API,/api/v1/payment,POST,Payments,OAuth2,False,True,True,2025-06-24 06:03:33.501979,Zombie,90,Critical
-API0139,Fortinet,Logging API,/api/v1/logging,DELETE,DevOps,Basic,True,True,True,2025-10-05 06:03:33.497878,Zombie,60,High
-API0063,Cisco,Email API,/api/v1/email,PUT,DevOps,JWT,False,False,True,2026-04-07 06:03:33.497319,Active,80,High
-API0136,Fortinet,Payment API,/api/v1/payment,PUT,Identity,Basic,True,False,True,2025-08-15 06:03:33.497858,Zombie,70,High
-API0129,IBM Cloud,Admin API,/api/v1/admin,PUT,HR,OAuth2,False,True,False,2026-01-25 06:03:33.497807,Deprecated,40,Moderate
-API0524,Stripe,Billing API,/api/v1/billing,POST,Finance,OAuth2,True,True,False,2026-01-30 06:03:33.502382,Deprecated,10,Low
-API0009,Check Point,User API,/api/v1/user,DELETE,Analytics,API Key,True,True,True,2026-03-06 06:03:33.496918,Active,40,Moderate
-API0327,TCS,User API,/api/v1/user,DELETE,Storage,None,True,False,False,2026-04-27 06:03:33.499966,Active,30,Moderate
-API0345,PayPal,Billing API,/api/v1/billing,POST,DevOps,JWT,True,False,False,2025-11-22 06:03:33.500278,Deprecated,20,Low
-API0065,Cisco,Database API,/api/v1/database,PUT,Payments,OAuth2,True,True,False,2025-08-23 06:03:33.497332,Deprecated,10,Low
-API0301,ServiceNow,Search API,/api/v1/search,DELETE,Payments,JWT,False,False,False,2026-03-02 06:03:33.499773,Active,40,Moderate
-API0015,Check Point,Audit API,/api/v1/audit,POST,Identity,OAuth2,True,False,True,2025-11-18 06:03:33.496960,Zombie,70,High
-API0157,Palo Alto Networks,Billing API,/api/v1/billing,DELETE,Analytics,JWT,False,True,False,2026-01-02 06:03:33.498665,Deprecated,40,Moderate
-API0041,Google Cloud,User API,/api/v1/user,DELETE,HR,None,False,True,False,2026-03-31 06:03:33.497163,Active,50,Moderate
-API0380,Visa,Analytics API,/api/v1/analytics,PUT,Payments,Basic,True,True,False,2025-07-24 06:03:33.500648,Deprecated,10,Low
-API0508,Mastercard,Email API,/api/v1/email,PUT,HR,JWT,False,False,False,2026-05-04 06:03:33.502270,Active,40,Moderate
-API0452,Ping Identity,File Upload API,/api/v1/file-upload,DELETE,DevOps,Basic,False,True,False,2026-03-28 06:03:33.501803,Active,30,Moderate
-API0217,SAP,Admin API,/api/v1/admin,GET,Storage,JWT,False,True,True,2025-06-28 06:03:33.499101,Zombie,90,Critical
-API0410,Wipro,Customer API,/api/v1/customer,PUT,Payments,Basic,False,True,False,2025-07-09 06:03:33.500926,Deprecated,40,Moderate
-API0280,Trend Micro,Email API,/api/v1/email,GET,Storage,API Key,False,True,False,2026-01-07 06:03:33.499616,Deprecated,40,Moderate
-API0481,Redis,Customer API,/api/v1/customer,DELETE,CRM,Basic,True,True,False,2025-07-27 06:03:33.502076,Deprecated,10,Low
-API0477,Databricks,File Upload API,/api/v1/file-upload,POST,Identity,JWT,True,False,True,2026-03-26 06:03:33.502043,Active,50,Moderate
-API0338,PayPal,File Upload API,/api/v1/file-upload,POST,Identity,API Key,False,True,True,2026-01-08 06:03:33.500212,Active,70,High
-API0237,KPMG,Recommendation API,/api/v1/recommendation,POST,Payments,OAuth2,True,False,False,2026-05-09 06:03:33.499247,Active,10,Low
-API0208,Deloitte,Storage API,/api/v1/storage,GET,Storage,JWT,True,True,False,2025-08-18 06:03:33.499035,Deprecated,10,Low
-API0213,SAP,Storage API,/api/v1/storage,PUT,Identity,JWT,True,True,True,2026-05-27 06:03:33.499073,Active,40,Moderate
-API0296,PwC,Authorization API,/api/v1/authorization,GET,Finance,OAuth2,False,False,False,2026-03-31 06:03:33.499735,Active,40,Moderate
-API0505,Mastercard,Analytics API,/api/v1/analytics,DELETE,CRM,OAuth2,True,False,True,2025-11-14 06:03:33.502248,Zombie,70,High
-API0252,Okta,File Upload API,/api/v1/file-upload,DELETE,HR,JWT,False,True,True,2026-05-17 06:03:33.499354,Active,70,High
-API0532,Auth0,Recommendation API,/api/v1/recommendation,POST,Payments,None,True,False,True,2026-01-05 06:03:33.502481,Active,70,High
-API0506,Mastercard,Profile API,/api/v1/profile,GET,Payments,JWT,True,True,False,2026-01-06 06:03:33.502257,Deprecated,10,Low
-API0304,ServiceNow,Email API,/api/v1/email,POST,Identity,Basic,True,True,True,2026-02-23 06:03:33.499802,Active,40,Moderate
-API0351,Zscaler,Logging API,/api/v1/logging,GET,Storage,None,True,False,False,2025-07-21 06:03:33.500345,Deprecated,40,Moderate
-API0270,Oracle Cloud,Audit API,/api/v1/audit,POST,DevOps,Basic,True,False,True,2025-07-04 06:03:33.499540,Zombie,70,High
-API0502,Mastercard,File Upload API,/api/v1/file-upload,PUT,Storage,Basic,True,True,False,2025-09-27 06:03:33.502224,Deprecated,10,Low
-API0202,Deloitte,Profile API,/api/v1/profile,DELETE,Storage,JWT,False,False,True,2025-09-08 06:03:33.498989,Zombie,100,Critical
-API0162,Palo Alto Networks,Analytics API,/api/v1/analytics,GET,Identity,None,True,True,True,2026-04-22 06:03:33.498698,Active,60,High
-API0044,Google Cloud,Logging API,/api/v1/logging,PUT,CRM,None,True,True,False,2026-06-03 06:03:33.497182,Active,20,Low
-API0218,SAP,Profile API,/api/v1/profile,DELETE,Storage,OAuth2,False,True,True,2025-08-10 06:03:33.499108,Zombie,90,Critical
-API0402,Accenture,Profile API,/api/v1/profile,PUT,Payments,Basic,False,False,False,2026-04-29 06:03:33.500810,Active,40,Moderate
-API0191,EY,Database API,/api/v1/database,GET,HR,JWT,False,True,False,2026-02-11 06:03:33.498911,Deprecated,40,Moderate
-API0310,ServiceNow,Profile API,/api/v1/profile,POST,CRM,API Key,True,False,False,2026-05-30 06:03:33.499846,Active,10,Low
-API0260,Oracle Cloud,Database API,/api/v1/database,DELETE,Storage,JWT,True,False,False,2026-03-07 06:03:33.499414,Active,10,Low
-API0106,Microsoft Azure,User API,/api/v1/user,DELETE,HR,None,True,False,True,2026-02-02 06:03:33.497645,Active,70,High
-API0054,Oracle,CRM API,/api/v1/crm,GET,CRM,Basic,False,False,True,2025-07-22 06:03:33.497253,Zombie,100,Critical
-API0390,Visa,Authorization API,/api/v1/authorization,GET,CRM,None,False,False,True,2025-08-26 06:03:33.500718,Zombie,100,Critical
-API0002,Check Point,Storage API,/api/v1/storage,DELETE,HR,None,False,True,True,2025-07-16 06:03:33.496859,Zombie,100,Critical
-API0488,Redis,Billing API,/api/v1/billing,GET,Identity,Basic,True,False,False,2025-12-19 06:03:33.502124,Deprecated,20,Low
-API0360,Zscaler,Email API,/api/v1/email,PUT,HR,OAuth2,False,False,True,2025-06-28 06:03:33.500417,Zombie,100,Critical
-API0050,Oracle,Admin API,/api/v1/admin,PUT,Storage,Basic,False,True,True,2025-10-20 06:03:33.497228,Zombie,90,Critical
-API0420,Wipro,Payment API,/api/v1/payment,PUT,CRM,None,True,False,True,2026-04-25 06:03:33.501333,Active,70,High
-API0081,CrowdStrike,Analytics API,/api/v1/analytics,POST,Identity,API Key,False,False,False,2025-07-17 06:03:33.497458,Deprecated,50,Moderate
-API0206,Deloitte,Search API,/api/v1/search,DELETE,Payments,JWT,False,True,True,2026-02-20 06:03:33.499022,Active,70,High
-API0035,Google Cloud,Database API,/api/v1/database,PUT,Payments,API Key,True,False,True,2026-06-14 06:03:33.497123,Active,50,Moderate
-API0431,Workday,Notification API,/api/v1/notification,GET,DevOps,Basic,True,True,False,2025-12-04 06:03:33.501506,Deprecated,10,Low
-API0264,Oracle Cloud,Customer API,/api/v1/customer,POST,Storage,API Key,True,True,True,2026-04-25 06:03:33.499488,Active,40,Moderate
-API0428,Workday,Invoice API,/api/v1/invoice,POST,Identity,None,True,False,False,2026-05-29 06:03:33.501472,Active,30,Moderate
-API0455,Ping Identity,Payment API,/api/v1/payment,DELETE,Identity,JWT,False,True,False,2026-01-16 06:03:33.501853,Deprecated,40,Moderate
-API0444,MongoDB,Storage API,/api/v1/storage,POST,Analytics,JWT,False,False,False,2025-07-16 06:03:33.501691,Deprecated,50,Moderate
-API0367,Infosys,User API,/api/v1/user,GET,Payments,None,False,False,False,2025-08-07 06:03:33.500545,Deprecated,70,High
-API0092,Cloudflare,Authorization API,/api/v1/authorization,PUT,HR,Basic,False,False,False,2025-07-01 06:03:33.497541,Deprecated,50,Moderate
-API0340,PayPal,Analytics API,/api/v1/analytics,PUT,Finance,Basic,False,True,False,2026-04-16 06:03:33.500229,Active,30,Moderate
-API0521,Stripe,Database API,/api/v1/database,PUT,Storage,Basic,True,True,False,2025-09-05 06:03:33.502363,Deprecated,10,Low
-API0053,Oracle,Audit API,/api/v1/audit,POST,Payments,API Key,True,False,False,2026-04-13 06:03:33.497247,Active,10,Low
-API0346,Zscaler,Search API,/api/v1/search,PUT,CRM,API Key,True,True,False,2026-02-15 06:03:33.500307,Deprecated,10,Low
-API0265,Oracle Cloud,Notification API,/api/v1/notification,POST,Identity,Basic,False,True,False,2025-12-27 06:03:33.499504,Deprecated,40,Moderate
-API0242,Okta,Authentication API,/api/v1/authentication,POST,Finance,OAuth2,True,False,False,2025-08-01 06:03:33.499286,Deprecated,20,Low
-API0014,Check Point,Admin API,/api/v1/admin,DELETE,DevOps,OAuth2,True,False,True,2026-05-02 06:03:33.496954,Active,50,Moderate
-API0316,TCS,Email API,/api/v1/email,GET,HR,Basic,False,False,True,2025-12-31 06:03:33.499892,Active,80,High
-API0089,CrowdStrike,Authorization API,/api/v1/authorization,POST,Identity,OAuth2,True,True,False,2026-04-08 06:03:33.497514,Active,0,Low
-API0388,Visa,Search API,/api/v1/search,GET,HR,OAuth2,True,True,False,2025-11-15 06:03:33.500705,Deprecated,10,Low
-API0274,Trend Micro,Admin API,/api/v1/admin,PUT,Payments,None,True,True,False,2026-05-02 06:03:33.499574,Active,20,Low
-API0167,Snowflake,Logging API,/api/v1/logging,GET,Finance,JWT,False,False,False,2026-06-17 06:03:33.498741,Active,40,Moderate
-API0329,TCS,Database API,/api/v1/database,POST,Storage,None,False,False,True,2026-03-30 06:03:33.499978,Active,100,Critical
-API0535,Auth0,Billing API,/api/v1/billing,PUT,HR,Basic,True,True,False,2025-10-14 06:03:33.502509,Deprecated,10,Low
-API0135,IBM Cloud,Profile API,/api/v1/profile,GET,HR,JWT,False,False,True,2025-11-27 06:03:33.497846,Zombie,100,Critical
-API0307,ServiceNow,Authorization API,/api/v1/authorization,GET,Payments,API Key,True,True,True,2025-07-10 06:03:33.499826,Zombie,60,High
-API0485,Redis,Admin API,/api/v1/admin,GET,Analytics,None,True,False,False,2025-08-05 06:03:33.502102,Deprecated,40,Moderate
-API0526,Auth0,CRM API,/api/v1/crm,PUT,HR,API Key,True,True,False,2025-10-30 06:03:33.502405,Deprecated,10,Low
-API0320,TCS,Notification API,/api/v1/notification,DELETE,Payments,JWT,False,False,False,2025-12-29 06:03:33.499919,Deprecated,50,Moderate
-API0244,Okta,Analytics API,/api/v1/analytics,POST,HR,OAuth2,False,True,False,2026-04-21 06:03:33.499299,Active,30,Moderate
-API0055,Oracle,Notification API,/api/v1/notification,POST,CRM,Basic,True,True,True,2026-05-29 06:03:33.497261,Active,40,Moderate
-API0364,Infosys,CRM API,/api/v1/crm,PUT,CRM,Basic,False,True,True,2025-08-06 06:03:33.500494,Zombie,90,Critical
-API0051,Oracle,Email API,/api/v1/email,GET,CRM,Basic,True,False,True,2025-11-28 06:03:33.497234,Zombie,70,High
-API0504,Mastercard,Recommendation API,/api/v1/recommendation,PUT,Identity,API Key,True,True,True,2025-08-22 06:03:33.502241,Zombie,60,High
-API0175,Snowflake,Email API,/api/v1/email,PUT,HR,OAuth2,True,False,True,2026-06-07 06:03:33.498795,Active,50,Moderate
-API0446,MongoDB,File Upload API,/api/v1/file-upload,PUT,CRM,Basic,True,True,False,2026-06-15 06:03:33.501715,Active,0,Low
-API0190,EY,Authorization API,/api/v1/authorization,PUT,CRM,Basic,True,True,False,2026-01-20 06:03:33.498904,Deprecated,10,Low
-API0538,Auth0,Payment API,/api/v1/payment,POST,Payments,JWT,False,True,True,2026-04-14 06:03:33.502541,Active,70,High
-API0464,Ping Identity,Authorization API,/api/v1/authorization,PUT,HR,OAuth2,False,True,False,2025-06-20 06:03:33.501933,Deprecated,40,Moderate
-API0188,EY,Audit API,/api/v1/audit,PUT,DevOps,API Key,False,True,True,2025-09-16 06:03:33.498892,Zombie,90,Critical
-API0476,Databricks,Storage API,/api/v1/storage,PUT,Identity,Basic,False,False,False,2025-09-23 06:03:33.502037,Deprecated,50,Moderate
-API0170,Snowflake,Authorization API,/api/v1/authorization,PUT,CRM,JWT,False,False,True,2026-06-14 06:03:33.498761,Active,80,High
-API0511,Stripe,Authorization API,/api/v1/authorization,PUT,CRM,OAuth2,True,True,False,2026-01-18 06:03:33.502295,Deprecated,10,Low
-API0059,Oracle,Invoice API,/api/v1/invoice,DELETE,DevOps,Basic,True,True,False,2025-08-13 06:03:33.497286,Deprecated,10,Low
-API0475,Databricks,Database API,/api/v1/database,GET,Storage,JWT,False,False,False,2026-02-24 06:03:33.502026,Active,40,Moderate
-SHADOW001,KPMG,Internal Service API 1,/internal/service-1,POST,Storage,OAuth2,True,True,True,2026-06-19 06:34:05.054613,Shadow,90,Critical
-SHADOW002,Oracle Cloud,Internal Service API 2,/internal/service-2,POST,HR,JWT,False,True,True,2026-06-19 06:34:05.054642,Shadow,100,Critical
-SHADOW003,Okta,Internal Service API 3,/internal/service-3,GET,Finance,API Key,True,True,True,2026-06-19 06:34:05.054655,Shadow,90,Critical
-SHADOW004,Stripe,Internal Service API 4,/internal/service-4,GET,DevOps,Basic,False,True,True,2026-06-19 06:34:05.054667,Shadow,100,Critical
-SHADOW005,IBM Cloud,Internal Service API 5,/internal/service-5,PUT,Finance,OAuth2,False,True,True,2026-06-19 06:34:05.054680,Shadow,100,Critical
-SHADOW006,Redis,Internal Service API 6,/internal/service-6,GET,Identity,JWT,False,False,True,2026-06-19 06:34:05.054691,Shadow,100,Critical
-SHADOW007,KPMG,Internal Service API 7,/internal/service-7,POST,Identity,None,False,True,True,2026-06-19 06:34:05.054700,Shadow,100,Critical
-SHADOW008,Workday,Internal Service API 8,/internal/service-8,GET,HR,API Key,False,False,True,2026-06-19 06:34:05.054712,Shadow,100,Critical
-SHADOW009,Auth0,Internal Service API 9,/internal/service-9,DELETE,HR,OAuth2,False,True,True,2026-06-19 06:34:05.054724,Shadow,100,Critical
-SHADOW010,PayPal,Internal Service API 10,/internal/service-10,POST,Analytics,Basic,True,True,True,2026-06-19 06:34:05.054735,Shadow,90,Critical
-SHADOW011,CrowdStrike,Internal Service API 11,/internal/service-11,DELETE,HR,API Key,False,True,True,2026-06-19 06:34:05.054746,Shadow,100,Critical
-SHADOW012,Cisco,Internal Service API 12,/internal/service-12,PUT,Identity,Basic,False,False,True,2026-06-19 06:34:05.054770,Shadow,100,Critical
-SHADOW013,Cisco,Internal Service API 13,/internal/service-13,POST,CRM,JWT,False,True,True,2026-06-19 06:34:05.054780,Shadow,100,Critical
-SHADOW014,MongoDB,Internal Service API 14,/internal/service-14,GET,Storage,Basic,True,False,True,2026-06-19 06:34:05.054790,Shadow,100,Critical
-SHADOW015,EY,Internal Service API 15,/internal/service-15,PUT,DevOps,Basic,False,False,True,2026-06-19 06:34:05.054799,Shadow,100,Critical
-SHADOW016,EY,Internal Service API 16,/internal/service-16,PUT,Analytics,JWT,True,False,True,2026-06-19 06:34:05.054809,Shadow,100,Critical
-SHADOW017,Zscaler,Internal Service API 17,/internal/service-17,POST,Identity,OAuth2,True,False,True,2026-06-19 06:34:05.054819,Shadow,100,Critical
-SHADOW018,Snowflake,Internal Service API 18,/internal/service-18,DELETE,Finance,JWT,False,False,True,2026-06-19 06:34:05.054830,Shadow,100,Critical
-SHADOW019,MongoDB,Internal Service API 19,/internal/service-19,PUT,Storage,None,True,True,True,2026-06-19 06:34:05.054839,Shadow,100,Critical
-SHADOW020,Redis,Internal Service API 20,/internal/service-20,DELETE,CRM,None,True,False,True,2026-06-19 06:34:05.054849,Shadow,100,Critical
+API0230,KPMG,Analytics API,/api/v1/analytics,DELETE,DevOps,Basic,True,False,False,2025-07-05 15:05:31.464894,Deprecated,20,Low
+API0074,Cisco,Audit API,/api/v1/audit,DELETE,DevOps,Basic,True,False,False,2026-03-25 15:05:31.462200,Active,10,Low
+API0522,Stripe,Email API,/api/v1/email,DELETE,Payments,JWT,True,False,True,2025-08-25 15:05:31.467949,Zombie,70,High
+API0087,CrowdStrike,Analytics API,/api/v1/analytics,POST,CRM,None,True,False,True,2026-03-18 15:05:31.462386,Active,70,High
+API0470,Workday,Notification API,/api/v1/notification,GET,Payments,None,False,False,True,2025-06-26 15:05:31.467519,Zombie,100,Critical
+API0078,CrowdStrike,Admin API,/api/v1/admin,PUT,Storage,API Key,False,False,True,2026-03-18 15:05:31.462273,Active,80,High
+API0298,TCS,Search API,/api/v1/search,POST,Payments,Basic,True,False,True,2026-04-29 15:05:31.465950,Active,50,Moderate
+API0419,MongoDB,Authentication API,/api/v1/authentication,GET,CRM,JWT,False,False,True,2025-11-13 15:05:31.467063,Zombie,100,Critical
+API0343,PayPal,Database API,/api/v1/database,DELETE,Finance,OAuth2,False,False,True,2025-09-15 15:05:31.466392,Zombie,100,Critical
+API0384,Infosys,Billing API,/api/v1/billing,GET,CRM,API Key,True,False,True,2026-02-08 15:05:31.466775,Active,50,Moderate
+API0007,Check Point,Audit API,/api/v1/audit,DELETE,HR,JWT,False,True,True,2026-03-18 15:05:31.460429,Active,70,High
+API0118,Microsoft Azure,Billing API,/api/v1/billing,GET,Analytics,Basic,True,True,False,2026-01-04 15:05:31.462857,Deprecated,10,Low
+API0411,MongoDB,Logging API,/api/v1/logging,DELETE,Payments,None,True,False,False,2026-04-12 15:05:31.467000,Active,30,Moderate
+API0076,CrowdStrike,Audit API,/api/v1/audit,PUT,Finance,JWT,True,False,False,2025-08-24 15:05:31.462243,Deprecated,20,Low
+API0273,Trend Micro,Invoice API,/api/v1/invoice,DELETE,Payments,API Key,True,True,True,2025-08-10 15:05:31.465562,Zombie,60,High
+API0196,EY,Authorization API,/api/v1/authorization,POST,Identity,OAuth2,True,True,False,2026-02-06 15:05:31.464037,Deprecated,10,Low
+API0495,Mastercard,Recommendation API,/api/v1/recommendation,POST,HR,API Key,True,False,False,2025-07-16 15:05:31.467731,Deprecated,20,Low
+API0102,Cloudflare,Invoice API,/api/v1/invoice,POST,DevOps,OAuth2,True,False,True,2025-10-07 15:05:31.462611,Zombie,70,High
+API0527,Auth0,Analytics API,/api/v1/analytics,PUT,Payments,None,True,True,False,2026-05-11 15:05:31.468002,Active,20,Low
+API0056,Oracle,Search API,/api/v1/search,PUT,Analytics,OAuth2,False,True,True,2025-10-04 15:05:31.461931,Zombie,90,Critical
+API0374,ServiceNow,Logging API,/api/v1/logging,POST,Analytics,None,True,False,True,2026-05-16 15:05:31.466690,Active,70,High
+API0186,Deloitte,Database API,/api/v1/database,POST,DevOps,JWT,False,False,False,2026-05-10 15:05:31.463885,Active,40,Moderate
+API0299,TCS,Logging API,/api/v1/logging,DELETE,CRM,API Key,False,True,False,2026-02-21 15:05:31.465963,Deprecated,40,Moderate
+API0168,Snowflake,Payment API,/api/v1/payment,GET,HR,Basic,False,True,False,2026-02-16 15:05:31.463641,Deprecated,40,Moderate
+API0480,Workday,Logging API,/api/v1/logging,POST,Payments,Basic,False,False,False,2026-01-31 15:05:31.467600,Deprecated,50,Moderate
+API0003,Check Point,Profile API,/api/v1/profile,GET,Analytics,API Key,False,True,True,2025-09-11 15:05:31.460391,Zombie,90,Critical
+API0181,Deloitte,Invoice API,/api/v1/invoice,DELETE,Finance,JWT,False,True,True,2026-06-15 15:05:31.463820,Active,70,High
+API0358,Visa,Search API,/api/v1/search,PUT,Payments,API Key,True,True,True,2026-04-29 15:05:31.466558,Active,40,Moderate
+API0011,Check Point,Billing API,/api/v1/billing,POST,DevOps,API Key,True,False,True,2026-03-02 15:05:31.460463,Active,50,Moderate
+API0312,PwC,Analytics API,/api/v1/analytics,POST,Finance,Basic,True,True,True,2026-04-26 15:05:31.466135,Active,40,Moderate
+API0372,ServiceNow,Database API,/api/v1/database,PUT,Payments,JWT,True,True,False,2025-10-22 15:05:31.466676,Deprecated,10,Low
+API0177,Snowflake,CRM API,/api/v1/crm,DELETE,Payments,API Key,False,True,False,2025-12-15 15:05:31.463755,Deprecated,40,Moderate
+API0246,Okta,Recommendation API,/api/v1/recommendation,GET,Finance,None,True,True,False,2026-05-16 15:05:31.465147,Active,20,Low
+API0465,Ping Identity,Search API,/api/v1/search,POST,CRM,JWT,False,True,False,2025-08-09 15:05:31.467441,Deprecated,40,Moderate
+API0350,Visa,Analytics API,/api/v1/analytics,GET,Analytics,OAuth2,False,True,False,2026-01-21 15:05:31.466457,Deprecated,40,Moderate
+API0525,Stripe,Storage API,/api/v1/storage,POST,CRM,Basic,True,False,False,2025-12-04 15:05:31.467973,Deprecated,20,Low
+API0415,MongoDB,Search API,/api/v1/search,GET,CRM,Basic,True,True,True,2025-10-31 15:05:31.467033,Zombie,60,High
+API0073,Cisco,Search API,/api/v1/search,DELETE,Identity,OAuth2,True,True,False,2025-06-26 15:05:31.462186,Deprecated,10,Low
+API0197,EY,Customer API,/api/v1/customer,GET,HR,JWT,False,True,False,2025-07-08 15:05:31.464049,Deprecated,40,Moderate
+API0269,Oracle Cloud,Authorization API,/api/v1/authorization,DELETE,DevOps,None,False,True,False,2025-08-11 15:05:31.465494,Deprecated,60,High
+API0322,Zscaler,Logging API,/api/v1/logging,POST,Storage,None,True,False,True,2025-12-23 15:05:31.466224,Zombie,90,Critical
+API0489,Mastercard,Storage API,/api/v1/storage,GET,DevOps,OAuth2,True,True,True,2026-03-29 15:05:31.467685,Active,40,Moderate
+API0141,Fortinet,Logging API,/api/v1/logging,GET,DevOps,API Key,False,True,True,2026-01-18 15:05:31.463224,Active,70,High
+API0458,Ping Identity,Authorization API,/api/v1/authorization,GET,Identity,API Key,False,False,False,2025-12-12 15:05:31.467387,Deprecated,50,Moderate
+API0174,Snowflake,File Upload API,/api/v1/file-upload,POST,Identity,None,True,True,True,2026-01-17 15:05:31.463716,Active,60,High
+API0080,CrowdStrike,Storage API,/api/v1/storage,PUT,HR,Basic,True,True,False,2026-03-18 15:05:31.462299,Active,0,Low
+API0363,ServiceNow,File Upload API,/api/v1/file-upload,POST,HR,Basic,True,False,False,2026-01-07 15:05:31.466604,Deprecated,20,Low
+API0397,Redis,CRM API,/api/v1/crm,DELETE,Identity,None,True,True,False,2025-11-04 15:05:31.466883,Deprecated,30,Moderate
+API0534,Auth0,Recommendation API,/api/v1/recommendation,PUT,Analytics,None,False,False,True,2025-12-13 15:05:31.468053,Zombie,100,Critical
+API0031,Google Cloud,Logging API,/api/v1/logging,POST,Finance,OAuth2,True,True,True,2025-08-13 15:05:31.461450,Zombie,60,High
+API0236,KPMG,Notification API,/api/v1/notification,GET,Finance,JWT,False,False,False,2026-02-16 15:05:31.464979,Deprecated,50,Moderate
+API0512,Stripe,Admin API,/api/v1/admin,DELETE,DevOps,JWT,False,False,True,2026-01-22 15:05:31.467875,Active,80,High
+API0498,Wipro,Search API,/api/v1/search,GET,DevOps,OAuth2,True,True,True,2025-10-24 15:05:31.467760,Zombie,60,High
+API0010,Check Point,Recommendation API,/api/v1/recommendation,DELETE,Identity,Basic,False,True,False,2026-04-07 15:05:31.460455,Active,30,Moderate
+API0529,Auth0,Payment API,/api/v1/payment,DELETE,CRM,API Key,False,False,True,2026-06-22 15:05:31.468017,Active,80,High
+API0326,Zscaler,Authentication API,/api/v1/authentication,PUT,HR,OAuth2,False,False,False,2025-09-09 15:05:31.466256,Deprecated,50,Moderate
+API0105,Cloudflare,Admin API,/api/v1/admin,PUT,HR,OAuth2,True,True,True,2026-04-02 15:05:31.462662,Active,40,Moderate
+API0447,Accenture,Audit API,/api/v1/audit,PUT,Storage,API Key,False,True,False,2026-02-20 15:05:31.467293,Deprecated,40,Moderate
+API0371,ServiceNow,Search API,/api/v1/search,POST,CRM,API Key,False,True,True,2026-06-15 15:05:31.466668,Active,70,High
+API0159,Palo Alto Networks,Recommendation API,/api/v1/recommendation,PUT,Storage,API Key,True,False,True,2026-04-26 15:05:31.463504,Active,50,Moderate
+API0250,Okta,CRM API,/api/v1/crm,DELETE,DevOps,API Key,False,True,False,2026-04-27 15:05:31.465198,Active,30,Moderate
+API0317,Zscaler,User API,/api/v1/user,POST,Analytics,API Key,False,True,False,2026-04-22 15:05:31.466187,Active,30,Moderate
+API0077,CrowdStrike,Authorization API,/api/v1/authorization,PUT,Analytics,API Key,True,True,True,2025-07-07 15:05:31.462257,Zombie,60,High
+API0536,Auth0,File Upload API,/api/v1/file-upload,GET,DevOps,None,False,True,False,2025-07-28 15:05:31.468069,Deprecated,60,High
+API0071,Cisco,Billing API,/api/v1/billing,POST,CRM,None,True,True,True,2026-01-20 15:05:31.462160,Active,60,High
+API0487,Mastercard,File Upload API,/api/v1/file-upload,POST,DevOps,JWT,True,True,False,2026-01-26 15:05:31.467669,Deprecated,10,Low
+API0461,Ping Identity,Logging API,/api/v1/logging,GET,HR,Basic,True,False,True,2026-02-19 15:05:31.467410,Active,50,Moderate
+API0369,ServiceNow,Customer API,/api/v1/customer,DELETE,HR,JWT,False,True,False,2026-04-27 15:05:31.466651,Active,30,Moderate
+API0272,Trend Micro,Authorization API,/api/v1/authorization,POST,Storage,Basic,False,False,True,2025-11-24 15:05:31.465550,Zombie,100,Critical
+API0133,IBM Cloud,Audit API,/api/v1/audit,DELETE,Analytics,JWT,True,True,True,2026-01-16 15:05:31.463095,Active,40,Moderate
+API0079,CrowdStrike,Email API,/api/v1/email,DELETE,Finance,None,False,True,False,2026-06-20 15:05:31.462286,Active,50,Moderate
+API0150,Fortinet,Customer API,/api/v1/customer,POST,Finance,Basic,False,True,True,2026-02-05 15:05:31.463345,Active,70,High
+API0336,PayPal,Search API,/api/v1/search,PUT,Finance,None,True,False,False,2025-09-09 15:05:31.466341,Deprecated,40,Moderate
+API0209,EY,Email API,/api/v1/email,PUT,Identity,OAuth2,True,False,False,2025-11-25 15:05:31.464196,Deprecated,20,Low
+API0069,Cisco,Storage API,/api/v1/storage,PUT,Finance,JWT,False,False,False,2026-06-06 15:05:31.462134,Active,40,Moderate
+API0251,Okta,Analytics API,/api/v1/analytics,DELETE,CRM,API Key,False,False,False,2026-06-22 15:05:31.465214,Active,40,Moderate
+API0064,Cisco,Notification API,/api/v1/notification,PUT,CRM,JWT,True,False,False,2026-01-11 15:05:31.462064,Deprecated,20,Low
+API0235,KPMG,User API,/api/v1/user,DELETE,Storage,Basic,False,True,False,2025-06-23 15:05:31.464965,Deprecated,40,Moderate
+API0210,EY,Payment API,/api/v1/payment,DELETE,Finance,JWT,True,False,False,2026-01-31 15:05:31.464209,Deprecated,20,Low
+API0083,CrowdStrike,Customer API,/api/v1/customer,GET,Identity,Basic,False,True,True,2026-02-13 15:05:31.462337,Active,70,High
+API0193,Deloitte,Customer API,/api/v1/customer,GET,Analytics,None,True,False,False,2025-07-12 15:05:31.463969,Deprecated,40,Moderate
+API0034,Google Cloud,Profile API,/api/v1/profile,DELETE,CRM,JWT,False,True,False,2026-05-19 15:05:31.461505,Active,30,Moderate
+API0085,CrowdStrike,User API,/api/v1/user,DELETE,Payments,JWT,True,False,True,2026-01-12 15:05:31.462361,Active,50,Moderate
+API0178,Snowflake,Database API,/api/v1/database,PUT,DevOps,API Key,True,False,False,2025-11-11 15:05:31.463767,Deprecated,20,Low
+API0001,Check Point,User API,/api/v1/user,PUT,Payments,API Key,True,True,False,2026-01-02 15:05:31.460348,Deprecated,10,Low
+API0012,Check Point,Customer API,/api/v1/customer,DELETE,Finance,API Key,False,False,True,2026-04-12 15:05:31.460495,Active,80,High
+API0473,Workday,Storage API,/api/v1/storage,DELETE,Analytics,None,False,False,False,2026-05-29 15:05:31.467544,Active,60,High
+API0023,AWS,Billing API,/api/v1/billing,PUT,CRM,Basic,True,True,True,2025-11-10 15:05:31.461315,Zombie,60,High
+API0357,Visa,Admin API,/api/v1/admin,DELETE,Payments,OAuth2,False,False,False,2025-09-22 15:05:31.466550,Deprecated,50,Moderate
+API0091,Cloudflare,User API,/api/v1/user,PUT,Analytics,API Key,True,True,True,2025-07-22 15:05:31.462449,Zombie,60,High
+API0090,CrowdStrike,Recommendation API,/api/v1/recommendation,DELETE,CRM,Basic,True,True,False,2026-04-29 15:05:31.462421,Active,0,Low
+API0154,Palo Alto Networks,Payment API,/api/v1/payment,POST,CRM,API Key,False,True,False,2026-05-02 15:05:31.463422,Active,30,Moderate
+API0278,Trend Micro,Email API,/api/v1/email,POST,DevOps,JWT,True,False,False,2026-02-05 15:05:31.465634,Deprecated,20,Low
+API0138,Fortinet,Audit API,/api/v1/audit,POST,Storage,JWT,True,True,False,2025-07-16 15:05:31.463182,Deprecated,10,Low
+API0377,Infosys,Recommendation API,/api/v1/recommendation,PUT,HR,None,False,True,True,2025-11-30 15:05:31.466721,Zombie,100,Critical
+API0132,IBM Cloud,CRM API,/api/v1/crm,DELETE,CRM,Basic,False,False,False,2026-06-13 15:05:31.463082,Active,40,Moderate
+API0430,Databricks,File Upload API,/api/v1/file-upload,POST,Storage,OAuth2,False,False,False,2026-05-25 15:05:31.467155,Active,40,Moderate
+API0019,AWS,Payment API,/api/v1/payment,POST,Analytics,Basic,True,False,True,2026-03-12 15:05:31.461260,Active,50,Moderate
+API0281,Trend Micro,CRM API,/api/v1/crm,POST,Identity,API Key,False,True,True,2026-02-11 15:05:31.465672,Active,70,High
+API0449,Accenture,Database API,/api/v1/database,DELETE,CRM,JWT,False,False,False,2026-03-09 15:05:31.467308,Active,40,Moderate
+API0016,AWS,Analytics API,/api/v1/analytics,GET,Identity,API Key,False,True,True,2026-04-03 15:05:31.461209,Active,70,High
+API0308,PwC,Authentication API,/api/v1/authentication,PUT,Payments,API Key,True,True,True,2025-08-21 15:05:31.466104,Zombie,60,High
+API0040,Google Cloud,Customer API,/api/v1/customer,GET,Storage,JWT,True,True,False,2026-04-05 15:05:31.461578,Active,0,Low
+API0499,Wipro,User API,/api/v1/user,GET,HR,None,False,False,False,2025-11-01 15:05:31.467767,Deprecated,70,High
+API0149,Fortinet,Email API,/api/v1/email,PUT,CRM,API Key,False,False,False,2026-03-29 15:05:31.463331,Active,40,Moderate
+API0047,Oracle,Admin API,/api/v1/admin,DELETE,Payments,API Key,True,False,False,2025-09-14 15:05:31.461823,Deprecated,20,Low
+API0094,Cloudflare,Authentication API,/api/v1/authentication,GET,HR,API Key,True,False,False,2026-05-28 15:05:31.462506,Active,10,Low
+API0407,MongoDB,Audit API,/api/v1/audit,DELETE,DevOps,None,True,True,True,2026-04-19 15:05:31.466964,Active,60,High
+API0183,Deloitte,Billing API,/api/v1/billing,GET,HR,None,False,False,False,2026-03-24 15:05:31.463845,Active,60,High
+API0245,Okta,Authorization API,/api/v1/authorization,PUT,CRM,API Key,True,True,True,2025-07-18 15:05:31.465134,Zombie,60,High
+API0540,Auth0,Billing API,/api/v1/billing,GET,CRM,API Key,True,True,False,2025-06-28 15:05:31.468105,Deprecated,10,Low
+API0391,Redis,File Upload API,/api/v1/file-upload,DELETE,Storage,None,False,False,False,2025-08-07 15:05:31.466837,Deprecated,70,High
+API0454,Ping Identity,Admin API,/api/v1/admin,POST,Payments,None,True,True,True,2026-03-24 15:05:31.467353,Active,60,High
+API0353,Visa,Audit API,/api/v1/audit,POST,Payments,API Key,True,False,True,2026-04-09 15:05:31.466508,Active,50,Moderate
+API0256,Oracle Cloud,Profile API,/api/v1/profile,PUT,DevOps,OAuth2,True,True,False,2025-10-31 15:05:31.465299,Deprecated,10,Low
+API0306,PwC,Billing API,/api/v1/billing,PUT,HR,JWT,True,True,False,2025-10-30 15:05:31.466080,Deprecated,10,Low
+API0519,Stripe,Audit API,/api/v1/audit,GET,Identity,None,True,False,False,2025-08-19 15:05:31.467927,Deprecated,40,Moderate
+API0401,Redis,Profile API,/api/v1/profile,GET,Identity,None,False,False,False,2025-07-26 15:05:31.466911,Deprecated,70,High
+API0319,Zscaler,Database API,/api/v1/database,GET,DevOps,None,True,False,False,2026-01-05 15:05:31.466202,Deprecated,40,Moderate
+API0239,KPMG,Billing API,/api/v1/billing,PUT,HR,API Key,False,True,False,2026-03-13 15:05:31.465031,Active,30,Moderate
+API0537,Auth0,Email API,/api/v1/email,PUT,Finance,None,True,False,True,2026-05-06 15:05:31.468077,Active,70,High
+API0490,Mastercard,Payment API,/api/v1/payment,POST,Analytics,None,False,False,True,2025-07-11 15:05:31.467692,Zombie,100,Critical
+API0385,Infosys,Notification API,/api/v1/notification,PUT,Identity,None,False,False,True,2025-07-07 15:05:31.466784,Zombie,100,Critical
+API0070,Cisco,Email API,/api/v1/email,POST,Identity,JWT,False,True,True,2025-08-24 15:05:31.462147,Zombie,90,Critical
+API0383,Infosys,User API,/api/v1/user,DELETE,Finance,OAuth2,True,False,False,2025-12-04 15:05:31.466768,Deprecated,20,Low
+API0323,Zscaler,Payment API,/api/v1/payment,GET,CRM,OAuth2,True,False,True,2025-09-02 15:05:31.466231,Zombie,70,High
+API0347,Visa,Authentication API,/api/v1/authentication,POST,Finance,JWT,True,False,False,2026-06-03 15:05:31.466434,Active,10,Low
+API0356,Visa,Storage API,/api/v1/storage,PUT,DevOps,None,True,True,True,2026-02-17 15:05:31.466543,Active,60,High
+API0156,Palo Alto Networks,Storage API,/api/v1/storage,PUT,Identity,Basic,True,False,False,2025-08-08 15:05:31.463450,Deprecated,20,Low
+API0248,Okta,Profile API,/api/v1/profile,POST,Finance,Basic,True,False,True,2025-07-01 15:05:31.465173,Zombie,70,High
+API0125,IBM Cloud,Authorization API,/api/v1/authorization,GET,Analytics,None,False,False,True,2026-03-21 15:05:31.462975,Active,100,Critical
+API0382,Infosys,Authorization API,/api/v1/authorization,GET,Storage,Basic,True,True,True,2025-11-26 15:05:31.466761,Zombie,60,High
+API0205,EY,Search API,/api/v1/search,DELETE,HR,API Key,True,False,True,2026-05-27 15:05:31.464149,Active,50,Moderate
+API0173,Snowflake,Recommendation API,/api/v1/recommendation,POST,Identity,API Key,True,True,False,2025-06-28 15:05:31.463703,Deprecated,10,Low
+API0212,SAP,Profile API,/api/v1/profile,PUT,Payments,Basic,True,False,True,2026-05-07 15:05:31.464269,Active,50,Moderate
+API0398,Redis,Database API,/api/v1/database,POST,Identity,API Key,True,False,True,2026-04-28 15:05:31.466890,Active,50,Moderate
+API0509,Wipro,Authorization API,/api/v1/authorization,DELETE,Payments,API Key,False,False,False,2025-10-14 15:05:31.467846,Deprecated,50,Moderate
+API0478,Workday,User API,/api/v1/user,POST,DevOps,None,False,True,False,2025-12-08 15:05:31.467586,Deprecated,60,High
+API0211,SAP,User API,/api/v1/user,PUT,HR,OAuth2,False,False,False,2025-07-03 15:05:31.464235,Deprecated,50,Moderate
+API0300,TCS,Notification API,/api/v1/notification,DELETE,Payments,API Key,True,False,True,2026-03-13 15:05:31.465976,Active,50,Moderate
+API0427,Databricks,Storage API,/api/v1/storage,PUT,Finance,JWT,True,False,False,2025-11-28 15:05:31.467132,Deprecated,20,Low
+API0020,AWS,Authentication API,/api/v1/authentication,DELETE,HR,None,True,False,False,2026-01-12 15:05:31.461274,Deprecated,40,Moderate
+API0368,ServiceNow,User API,/api/v1/user,DELETE,Identity,Basic,False,False,True,2025-10-29 15:05:31.466644,Zombie,100,Critical
+API0057,Oracle,Database API,/api/v1/database,PUT,HR,JWT,False,False,True,2026-02-06 15:05:31.461943,Active,80,High
+API0219,SAP,Notification API,/api/v1/notification,PUT,DevOps,OAuth2,False,True,False,2026-06-22 15:05:31.464496,Active,30,Moderate
+API0451,Ping Identity,File Upload API,/api/v1/file-upload,POST,HR,None,True,True,True,2026-03-26 15:05:31.467330,Active,60,High
+API0439,Accenture,Notification API,/api/v1/notification,GET,HR,Basic,False,False,False,2026-01-01 15:05:31.467228,Deprecated,50,Moderate
+API0533,Auth0,User API,/api/v1/user,GET,HR,JWT,True,False,True,2026-04-29 15:05:31.468045,Active,50,Moderate
+API0503,Wipro,CRM API,/api/v1/crm,DELETE,Payments,None,True,True,False,2025-07-24 15:05:31.467798,Deprecated,30,Moderate
+API0026,AWS,Storage API,/api/v1/storage,POST,Payments,API Key,True,True,False,2026-01-28 15:05:31.461359,Deprecated,10,Low
+API0279,Trend Micro,Billing API,/api/v1/billing,POST,HR,OAuth2,False,False,True,2026-05-22 15:05:31.465647,Active,80,High
+API0043,Google Cloud,Audit API,/api/v1/audit,POST,Finance,Basic,False,True,True,2026-04-12 15:05:31.461638,Active,70,High
+API0440,Accenture,User API,/api/v1/user,PUT,HR,JWT,True,True,False,2026-05-14 15:05:31.467235,Active,0,Low
+API0249,Okta,Notification API,/api/v1/notification,PUT,Finance,Basic,False,False,False,2026-01-31 15:05:31.465186,Deprecated,50,Moderate
+API0433,Databricks,Customer API,/api/v1/customer,DELETE,DevOps,OAuth2,False,True,False,2025-11-07 15:05:31.467176,Deprecated,40,Moderate
+API0334,PayPal,Billing API,/api/v1/billing,POST,Finance,Basic,False,True,True,2025-11-23 15:05:31.466325,Zombie,90,Critical
+API0155,Palo Alto Networks,Authentication API,/api/v1/authentication,POST,Identity,None,False,False,False,2025-07-06 15:05:31.463437,Deprecated,70,High
+API0127,IBM Cloud,Customer API,/api/v1/customer,POST,Identity,OAuth2,True,False,False,2025-11-01 15:05:31.463014,Deprecated,20,Low
+API0276,Trend Micro,Recommendation API,/api/v1/recommendation,PUT,Payments,OAuth2,False,False,True,2025-08-24 15:05:31.465606,Zombie,100,Critical
+API0362,ServiceNow,Authentication API,/api/v1/authentication,POST,Finance,OAuth2,True,False,True,2026-03-29 15:05:31.466596,Active,50,Moderate
+API0032,Google Cloud,Admin API,/api/v1/admin,GET,DevOps,JWT,False,False,False,2026-05-15 15:05:31.461462,Active,40,Moderate
+API0114,Microsoft Azure,Payment API,/api/v1/payment,GET,Storage,None,True,True,False,2026-02-23 15:05:31.462801,Active,20,Low
+API0381,Infosys,Analytics API,/api/v1/analytics,POST,Storage,Basic,True,False,True,2025-06-30 15:05:31.466754,Zombie,70,High
+API0474,Workday,Billing API,/api/v1/billing,PUT,Identity,JWT,True,False,False,2026-02-19 15:05:31.467551,Deprecated,20,Low
+API0370,ServiceNow,Payment API,/api/v1/payment,DELETE,Payments,None,True,False,True,2025-09-17 15:05:31.466659,Zombie,90,Critical
+API0058,Oracle,Customer API,/api/v1/customer,DELETE,Storage,Basic,False,False,True,2025-09-23 15:05:31.461956,Zombie,100,Critical
+API0333,PayPal,Logging API,/api/v1/logging,GET,DevOps,Basic,True,False,False,2026-05-04 15:05:31.466317,Active,10,Low
+API0025,AWS,Database API,/api/v1/database,GET,DevOps,Basic,False,True,True,2026-01-15 15:05:31.461346,Active,70,High
+API0018,AWS,Customer API,/api/v1/customer,PUT,CRM,Basic,True,True,False,2026-06-06 15:05:31.461245,Active,0,Low
+API0457,Ping Identity,Email API,/api/v1/email,DELETE,Identity,OAuth2,False,True,True,2026-03-28 15:05:31.467379,Active,70,High
+API0067,Cisco,Logging API,/api/v1/logging,POST,DevOps,None,True,False,True,2025-10-31 15:05:31.462106,Zombie,90,Critical
+API0229,KPMG,Customer API,/api/v1/customer,POST,Analytics,OAuth2,False,False,True,2026-03-10 15:05:31.464882,Active,80,High
+API0483,Mastercard,Customer API,/api/v1/customer,DELETE,CRM,Basic,True,True,False,2025-10-19 15:05:31.467631,Deprecated,10,Low
+API0514,Stripe,File Upload API,/api/v1/file-upload,GET,DevOps,JWT,True,False,False,2025-07-07 15:05:31.467889,Deprecated,20,Low
+API0443,Accenture,Billing API,/api/v1/billing,DELETE,DevOps,API Key,False,False,True,2025-11-07 15:05:31.467258,Zombie,100,Critical
+API0095,Cloudflare,Storage API,/api/v1/storage,PUT,Analytics,OAuth2,False,True,False,2025-09-24 15:05:31.462519,Deprecated,40,Moderate
+API0185,Deloitte,Audit API,/api/v1/audit,DELETE,Analytics,OAuth2,False,False,False,2026-01-07 15:05:31.463871,Deprecated,50,Moderate
+API0292,TCS,Audit API,/api/v1/audit,GET,Finance,OAuth2,True,True,False,2025-10-16 15:05:31.465860,Deprecated,10,Low
+API0024,AWS,Logging API,/api/v1/logging,DELETE,Storage,Basic,True,True,False,2025-07-03 15:05:31.461327,Deprecated,10,Low
+API0266,Oracle Cloud,CRM API,/api/v1/crm,PUT,HR,OAuth2,False,True,True,2026-04-19 15:05:31.465440,Active,70,High
+API0288,TCS,Billing API,/api/v1/billing,PUT,Payments,API Key,True,True,False,2026-03-01 15:05:31.465803,Active,0,Low
+API0484,Mastercard,CRM API,/api/v1/crm,PUT,Identity,None,True,True,False,2025-10-20 15:05:31.467639,Deprecated,30,Moderate
+API0006,Check Point,Email API,/api/v1/email,POST,CRM,OAuth2,True,False,False,2026-05-10 15:05:31.460421,Active,10,Low
+API0117,Microsoft Azure,Authorization API,/api/v1/authorization,POST,Identity,None,True,True,False,2025-11-16 15:05:31.462844,Deprecated,30,Moderate
+API0046,Oracle,Billing API,/api/v1/billing,PUT,Analytics,Basic,True,False,True,2025-10-19 15:05:31.461787,Zombie,70,High
+API0232,KPMG,Authentication API,/api/v1/authentication,PUT,DevOps,OAuth2,False,True,True,2026-03-06 15:05:31.464919,Active,70,High
+API0305,PwC,Storage API,/api/v1/storage,PUT,Identity,OAuth2,False,False,True,2026-06-10 15:05:31.466068,Active,80,High
+API0017,AWS,File Upload API,/api/v1/file-upload,PUT,Storage,JWT,False,False,True,2025-07-22 15:05:31.461228,Zombie,100,Critical
+API0049,Oracle,CRM API,/api/v1/crm,POST,Finance,Basic,True,True,False,2026-03-09 15:05:31.461848,Active,0,Low
+API0396,Redis,User API,/api/v1/user,GET,Payments,None,True,False,False,2025-08-01 15:05:31.466875,Deprecated,40,Moderate
+API0004,Check Point,Payment API,/api/v1/payment,DELETE,CRM,API Key,False,True,True,2026-01-28 15:05:31.460401,Active,70,High
+API0413,MongoDB,Analytics API,/api/v1/analytics,GET,CRM,None,False,False,True,2026-02-15 15:05:31.467016,Active,100,Critical
+API0223,SAP,Database API,/api/v1/database,PUT,Analytics,API Key,False,True,False,2026-06-07 15:05:31.464539,Active,30,Moderate
+API0061,Cisco,File Upload API,/api/v1/file-upload,PUT,Finance,API Key,False,True,True,2026-03-14 15:05:31.462023,Active,70,High
+API0520,Stripe,Notification API,/api/v1/notification,POST,Storage,Basic,True,True,True,2026-03-10 15:05:31.467934,Active,40,Moderate
+API0111,Microsoft Azure,Authentication API,/api/v1/authentication,GET,DevOps,Basic,False,True,True,2026-05-08 15:05:31.462761,Active,70,High
+API0354,Visa,Invoice API,/api/v1/invoice,GET,Payments,Basic,True,False,False,2025-08-16 15:05:31.466522,Deprecated,20,Low
+API0290,TCS,Customer API,/api/v1/customer,DELETE,CRM,Basic,False,False,False,2025-07-31 15:05:31.465832,Deprecated,50,Moderate
+API0030,AWS,Audit API,/api/v1/audit,POST,HR,JWT,False,True,False,2025-11-09 15:05:31.461420,Deprecated,40,Moderate
+API0530,Auth0,Database API,/api/v1/database,GET,Identity,JWT,True,False,False,2026-04-06 15:05:31.468023,Active,10,Low
+API0453,Ping Identity,Recommendation API,/api/v1/recommendation,GET,Identity,Basic,False,False,False,2026-03-29 15:05:31.467345,Active,40,Moderate
+API0027,AWS,User API,/api/v1/user,POST,Payments,Basic,False,True,False,2026-06-07 15:05:31.461371,Active,30,Moderate
+API0008,Check Point,Analytics API,/api/v1/analytics,DELETE,Finance,None,False,False,True,2026-05-14 15:05:31.460438,Active,100,Critical
+API0182,Deloitte,User API,/api/v1/user,DELETE,CRM,None,False,False,False,2025-08-25 15:05:31.463832,Deprecated,70,High
+API0501,Wipro,Analytics API,/api/v1/analytics,POST,Storage,JWT,False,False,False,2025-06-26 15:05:31.467782,Deprecated,50,Moderate
+API0109,Microsoft Azure,File Upload API,/api/v1/file-upload,PUT,Finance,Basic,True,True,False,2025-10-28 15:05:31.462734,Deprecated,10,Low
+API0038,Google Cloud,Recommendation API,/api/v1/recommendation,PUT,Finance,JWT,True,True,False,2026-01-30 15:05:31.461555,Deprecated,10,Low
+API0158,Palo Alto Networks,File Upload API,/api/v1/file-upload,POST,Payments,API Key,False,False,True,2025-06-26 15:05:31.463492,Zombie,100,Critical
+API0515,Stripe,Customer API,/api/v1/customer,POST,CRM,OAuth2,False,True,True,2026-02-17 15:05:31.467899,Active,70,High
+API0119,Microsoft Azure,Database API,/api/v1/database,POST,CRM,API Key,False,False,True,2025-12-23 15:05:31.462871,Zombie,100,Critical
+API0115,Microsoft Azure,Search API,/api/v1/search,DELETE,Finance,Basic,True,False,True,2026-03-17 15:05:31.462816,Active,50,Moderate
+API0287,TCS,Storage API,/api/v1/storage,DELETE,DevOps,Basic,False,True,False,2025-11-11 15:05:31.465790,Deprecated,40,Moderate
+API0204,EY,Admin API,/api/v1/admin,GET,Analytics,None,True,True,True,2026-01-30 15:05:31.464133,Active,60,High
+API0176,Snowflake,Profile API,/api/v1/profile,PUT,DevOps,Basic,True,True,False,2025-09-19 15:05:31.463743,Deprecated,10,Low
+API0226,KPMG,Email API,/api/v1/email,POST,DevOps,API Key,True,False,True,2026-01-10 15:05:31.464601,Active,50,Moderate
+API0221,SAP,Logging API,/api/v1/logging,DELETE,CRM,Basic,False,True,False,2025-11-13 15:05:31.464517,Deprecated,40,Moderate
+API0145,Fortinet,Authentication API,/api/v1/authentication,POST,Storage,API Key,True,False,True,2025-11-15 15:05:31.463277,Zombie,70,High
+API0195,Deloitte,Recommendation API,/api/v1/recommendation,DELETE,Storage,API Key,False,True,False,2025-12-10 15:05:31.464011,Deprecated,40,Moderate
+API0409,MongoDB,Database API,/api/v1/database,POST,HR,Basic,True,True,True,2025-11-22 15:05:31.466978,Zombie,60,High
+API0421,Databricks,Recommendation API,/api/v1/recommendation,GET,Analytics,Basic,True,False,False,2026-04-12 15:05:31.467085,Active,10,Low
+API0238,KPMG,File Upload API,/api/v1/file-upload,POST,Payments,None,False,False,False,2025-07-08 15:05:31.465017,Deprecated,70,High
+API0282,Trend Micro,Logging API,/api/v1/logging,PUT,CRM,API Key,False,False,True,2025-09-18 15:05:31.465686,Zombie,100,Critical
+API0404,Redis,Email API,/api/v1/email,PUT,Payments,None,False,False,False,2026-05-03 15:05:31.466933,Active,60,High
+API0523,Stripe,Recommendation API,/api/v1/recommendation,POST,Analytics,OAuth2,True,True,False,2026-01-29 15:05:31.467956,Deprecated,10,Low
+API0142,Fortinet,Profile API,/api/v1/profile,GET,Storage,None,False,True,True,2026-01-10 15:05:31.463238,Active,90,Critical
+API0405,Redis,Audit API,/api/v1/audit,DELETE,DevOps,OAuth2,False,True,False,2026-03-22 15:05:31.466943,Active,30,Moderate
+API0068,Cisco,CRM API,/api/v1/crm,POST,Storage,JWT,False,False,True,2025-11-01 15:05:31.462121,Zombie,100,Critical
+API0297,TCS,Profile API,/api/v1/profile,PUT,DevOps,JWT,False,False,True,2025-11-12 15:05:31.465937,Zombie,100,Critical
+API0228,KPMG,Recommendation API,/api/v1/recommendation,PUT,Identity,API Key,True,False,True,2025-12-29 15:05:31.464868,Active,50,Moderate
+API0169,Snowflake,Analytics API,/api/v1/analytics,POST,DevOps,Basic,True,False,True,2025-12-20 15:05:31.463652,Zombie,70,High
+API0189,Deloitte,File Upload API,/api/v1/file-upload,GET,Storage,Basic,False,True,True,2025-08-18 15:05:31.463922,Zombie,90,Critical
+API0517,Stripe,Authentication API,/api/v1/authentication,GET,Identity,JWT,True,False,True,2025-08-29 15:05:31.467913,Zombie,70,High
+API0416,MongoDB,Recommendation API,/api/v1/recommendation,GET,HR,API Key,False,True,False,2026-02-12 15:05:31.467041,Deprecated,40,Moderate
+API0417,MongoDB,Email API,/api/v1/email,POST,HR,JWT,False,True,False,2026-02-21 15:05:31.467049,Deprecated,40,Moderate
+API0194,Deloitte,Storage API,/api/v1/storage,PUT,CRM,OAuth2,True,False,True,2026-03-18 15:05:31.463981,Active,50,Moderate
+API0082,CrowdStrike,Profile API,/api/v1/profile,DELETE,HR,JWT,True,False,False,2025-07-28 15:05:31.462324,Deprecated,20,Low
+API0110,Microsoft Azure,Admin API,/api/v1/admin,PUT,Finance,None,False,False,True,2026-01-26 15:05:31.462748,Active,100,Critical
+API0321,Zscaler,File Upload API,/api/v1/file-upload,POST,CRM,None,False,True,True,2025-10-11 15:05:31.466217,Zombie,100,Critical
+API0146,Fortinet,Billing API,/api/v1/billing,POST,Storage,OAuth2,False,True,True,2025-12-04 15:05:31.463291,Zombie,90,Critical
+API0093,Cloudflare,Billing API,/api/v1/billing,DELETE,CRM,Basic,False,False,False,2026-06-19 15:05:31.462492,Active,40,Moderate
+API0153,Palo Alto Networks,Billing API,/api/v1/billing,PUT,Payments,OAuth2,False,True,False,2026-04-27 15:05:31.463403,Active,30,Moderate
+API0262,Oracle Cloud,Analytics API,/api/v1/analytics,DELETE,Finance,OAuth2,True,True,False,2025-10-17 15:05:31.465384,Deprecated,10,Low
+API0435,Databricks,Email API,/api/v1/email,GET,Identity,OAuth2,True,True,True,2025-09-29 15:05:31.467192,Zombie,60,High
+API0448,Accenture,Logging API,/api/v1/logging,DELETE,Finance,JWT,True,True,False,2026-01-17 15:05:31.467301,Deprecated,10,Low
+API0395,Redis,Storage API,/api/v1/storage,DELETE,Finance,API Key,True,False,True,2025-08-14 15:05:31.466868,Zombie,70,High
+API0084,CrowdStrike,Invoice API,/api/v1/invoice,GET,Identity,OAuth2,True,False,True,2025-10-31 15:05:31.462348,Zombie,70,High
+API0104,Cloudflare,Customer API,/api/v1/customer,POST,Identity,API Key,True,False,False,2025-11-14 15:05:31.462649,Deprecated,20,Low
+API0166,Snowflake,Email API,/api/v1/email,GET,Storage,None,False,False,False,2025-10-30 15:05:31.463616,Deprecated,70,High
+API0164,Palo Alto Networks,Search API,/api/v1/search,DELETE,Storage,Basic,True,False,False,2026-04-26 15:05:31.463572,Active,10,Low
+API0200,EY,Invoice API,/api/v1/invoice,PUT,DevOps,OAuth2,True,False,False,2026-05-27 15:05:31.464082,Active,10,Low
+API0330,Zscaler,Profile API,/api/v1/profile,POST,Payments,Basic,False,True,False,2026-03-05 15:05:31.466287,Active,30,Moderate
+API0075,Cisco,Authorization API,/api/v1/authorization,GET,Identity,JWT,True,True,True,2025-11-27 15:05:31.462214,Zombie,60,High
+API0342,PayPal,Customer API,/api/v1/customer,PUT,Finance,OAuth2,True,False,True,2025-09-12 15:05:31.466385,Zombie,70,High
+API0258,Oracle Cloud,Email API,/api/v1/email,PUT,DevOps,JWT,True,False,True,2026-02-19 15:05:31.465326,Active,50,Moderate
+API0518,Stripe,Payment API,/api/v1/payment,PUT,Finance,API Key,False,True,False,2025-08-02 15:05:31.467920,Deprecated,40,Moderate
+API0120,Microsoft Azure,CRM API,/api/v1/crm,GET,Analytics,Basic,True,True,True,2026-04-21 15:05:31.462885,Active,40,Moderate
+API0311,PwC,CRM API,/api/v1/crm,POST,HR,API Key,False,False,False,2026-03-14 15:05:31.466128,Active,40,Moderate
+API0349,Visa,Logging API,/api/v1/logging,DELETE,Finance,OAuth2,False,False,True,2025-07-31 15:05:31.466450,Zombie,100,Critical
+API0393,Redis,Search API,/api/v1/search,DELETE,DevOps,None,False,True,False,2025-07-25 15:05:31.466851,Deprecated,60,High
+API0442,Accenture,CRM API,/api/v1/crm,POST,Storage,Basic,False,True,False,2025-06-29 15:05:31.467251,Deprecated,40,Moderate
+API0423,Databricks,CRM API,/api/v1/crm,POST,DevOps,Basic,True,True,False,2025-06-27 15:05:31.467099,Deprecated,10,Low
+API0275,Trend Micro,Audit API,/api/v1/audit,DELETE,Payments,None,False,True,False,2026-04-11 15:05:31.465592,Active,50,Moderate
+API0365,ServiceNow,Billing API,/api/v1/billing,POST,DevOps,None,False,True,True,2025-08-14 15:05:31.466621,Zombie,100,Critical
+API0424,Databricks,Analytics API,/api/v1/analytics,POST,Analytics,JWT,False,True,True,2025-12-07 15:05:31.467107,Zombie,90,Critical
+API0303,PwC,Logging API,/api/v1/logging,POST,Analytics,JWT,True,True,False,2026-02-28 15:05:31.466040,Active,0,Low
+API0037,Google Cloud,CRM API,/api/v1/crm,POST,Storage,API Key,False,False,True,2026-01-17 15:05:31.461543,Active,80,High
+API0140,Fortinet,Authorization API,/api/v1/authorization,PUT,HR,API Key,True,True,True,2026-06-05 15:05:31.463209,Active,40,Moderate
+API0254,Okta,Invoice API,/api/v1/invoice,DELETE,Payments,API Key,True,False,False,2025-10-25 15:05:31.465251,Deprecated,20,Low
+API0516,Stripe,CRM API,/api/v1/crm,POST,DevOps,Basic,False,True,True,2025-12-04 15:05:31.467906,Zombie,90,Critical
+API0060,Oracle,Recommendation API,/api/v1/recommendation,POST,Analytics,OAuth2,True,False,False,2026-04-25 15:05:31.461980,Active,10,Low
+API0112,Microsoft Azure,Notification API,/api/v1/notification,DELETE,DevOps,None,True,False,True,2025-11-20 15:05:31.462775,Zombie,90,Critical
+API0291,TCS,CRM API,/api/v1/crm,DELETE,Finance,OAuth2,False,False,False,2025-11-17 15:05:31.465847,Deprecated,50,Moderate
+API0355,Visa,Profile API,/api/v1/profile,DELETE,DevOps,JWT,True,False,True,2025-09-26 15:05:31.466536,Zombie,70,High
+API0263,Oracle Cloud,Database API,/api/v1/database,PUT,HR,None,False,True,False,2025-07-01 15:05:31.465398,Deprecated,60,High
+API0400,Redis,Authentication API,/api/v1/authentication,PUT,HR,None,False,False,False,2026-05-28 15:05:31.466904,Active,60,High
+API0151,Palo Alto Networks,Notification API,/api/v1/notification,GET,DevOps,None,False,False,True,2025-10-09 15:05:31.463377,Zombie,100,Critical
+API0267,Oracle Cloud,Invoice API,/api/v1/invoice,PUT,HR,OAuth2,True,True,True,2026-05-21 15:05:31.465454,Active,40,Moderate
+API0422,Databricks,Authentication API,/api/v1/authentication,DELETE,HR,OAuth2,False,False,False,2026-04-27 15:05:31.467092,Active,40,Moderate
+API0039,Google Cloud,Payment API,/api/v1/payment,DELETE,Identity,OAuth2,False,False,True,2026-06-03 15:05:31.461567,Active,80,High
+API0348,Visa,CRM API,/api/v1/crm,POST,CRM,OAuth2,False,True,True,2026-04-05 15:05:31.466443,Active,70,High
+API0199,EY,User API,/api/v1/user,PUT,Analytics,Basic,False,True,False,2025-07-31 15:05:31.464072,Deprecated,40,Moderate
+API0285,Trend Micro,File Upload API,/api/v1/file-upload,DELETE,Analytics,Basic,False,True,False,2026-03-10 15:05:31.465746,Active,30,Moderate
+API0147,Fortinet,User API,/api/v1/user,GET,Analytics,API Key,False,False,False,2026-01-01 15:05:31.463305,Deprecated,50,Moderate
+API0434,Databricks,Notification API,/api/v1/notification,GET,Identity,OAuth2,False,True,True,2025-10-29 15:05:31.467183,Zombie,90,Critical
+API0148,Fortinet,File Upload API,/api/v1/file-upload,GET,Identity,None,False,False,True,2025-07-22 15:05:31.463317,Zombie,100,Critical
+API0450,Accenture,Customer API,/api/v1/customer,DELETE,Identity,OAuth2,False,True,True,2026-03-09 15:05:31.467315,Active,70,High
+API0486,Mastercard,Authentication API,/api/v1/authentication,POST,Analytics,OAuth2,False,False,False,2026-01-23 15:05:31.467662,Deprecated,50,Moderate
+API0124,IBM Cloud,Notification API,/api/v1/notification,PUT,DevOps,None,False,False,True,2026-04-09 15:05:31.462962,Active,100,Critical
+API0408,MongoDB,CRM API,/api/v1/crm,DELETE,DevOps,JWT,False,False,False,2026-01-15 15:05:31.466971,Deprecated,50,Moderate
+API0097,Cloudflare,Authorization API,/api/v1/authorization,GET,Identity,None,False,False,True,2025-12-10 15:05:31.462547,Zombie,100,Critical
+API0144,Fortinet,Storage API,/api/v1/storage,PUT,DevOps,OAuth2,True,False,False,2026-03-17 15:05:31.463264,Active,10,Low
+API0240,KPMG,Logging API,/api/v1/logging,POST,HR,Basic,True,True,False,2025-09-02 15:05:31.465044,Deprecated,10,Low
+API0302,PwC,Profile API,/api/v1/profile,POST,Finance,API Key,True,True,False,2025-10-23 15:05:31.466027,Deprecated,10,Low
+API0098,Cloudflare,Payment API,/api/v1/payment,PUT,Finance,OAuth2,True,True,False,2025-07-28 15:05:31.462560,Deprecated,10,Low
+API0437,Accenture,Recommendation API,/api/v1/recommendation,POST,Analytics,API Key,True,False,True,2026-06-07 15:05:31.467214,Active,50,Moderate
+API0294,TCS,Admin API,/api/v1/admin,DELETE,Finance,API Key,True,False,True,2026-01-13 15:05:31.465887,Active,50,Moderate
+API0389,Infosys,Payment API,/api/v1/payment,DELETE,Identity,OAuth2,False,True,False,2025-08-07 15:05:31.466814,Deprecated,40,Moderate
+API0123,IBM Cloud,Database API,/api/v1/database,GET,Finance,Basic,True,True,True,2025-12-23 15:05:31.462949,Zombie,60,High
+API0184,Deloitte,Profile API,/api/v1/profile,PUT,CRM,JWT,False,True,False,2025-07-22 15:05:31.463855,Deprecated,40,Moderate
+API0203,EY,Notification API,/api/v1/notification,DELETE,Analytics,API Key,True,True,True,2025-10-19 15:05:31.464121,Zombie,60,High
+API0247,Okta,Admin API,/api/v1/admin,POST,Storage,API Key,False,False,False,2025-08-12 15:05:31.465159,Deprecated,50,Moderate
+API0339,PayPal,Payment API,/api/v1/payment,PUT,Finance,Basic,False,False,True,2026-06-03 15:05:31.466364,Active,80,High
+API0491,Mastercard,Notification API,/api/v1/notification,DELETE,CRM,OAuth2,True,False,False,2025-12-19 15:05:31.467699,Deprecated,20,Low
+API0463,Ping Identity,Authentication API,/api/v1/authentication,POST,CRM,JWT,False,False,False,2026-05-09 15:05:31.467424,Active,40,Moderate
+API0332,PayPal,User API,/api/v1/user,DELETE,Storage,JWT,True,False,False,2026-01-27 15:05:31.466309,Deprecated,20,Low
+API0438,Accenture,Authorization API,/api/v1/authorization,PUT,Finance,None,True,False,True,2025-11-05 15:05:31.467221,Zombie,90,Critical
+API0313,PwC,Invoice API,/api/v1/invoice,DELETE,Finance,Basic,True,True,False,2026-05-11 15:05:31.466142,Active,0,Low
+API0126,IBM Cloud,Storage API,/api/v1/storage,POST,Analytics,None,False,True,False,2025-11-18 15:05:31.462988,Deprecated,60,High
+API0335,PayPal,Authentication API,/api/v1/authentication,POST,DevOps,JWT,False,False,True,2026-04-01 15:05:31.466334,Active,80,High
+API0224,SAP,Billing API,/api/v1/billing,GET,Analytics,Basic,False,False,False,2026-04-23 15:05:31.464551,Active,40,Moderate
+API0462,Ping Identity,Customer API,/api/v1/customer,DELETE,Finance,JWT,False,True,False,2026-02-11 15:05:31.467417,Deprecated,40,Moderate
+API0220,SAP,Audit API,/api/v1/audit,POST,Storage,None,False,False,True,2025-08-24 15:05:31.464507,Zombie,100,Critical
+API0130,IBM Cloud,File Upload API,/api/v1/file-upload,DELETE,Payments,None,False,False,True,2026-01-11 15:05:31.463052,Active,100,Critical
+API0507,Wipro,Payment API,/api/v1/payment,GET,Finance,API Key,False,False,True,2025-11-03 15:05:31.467829,Zombie,100,Critical
+API0324,Zscaler,Admin API,/api/v1/admin,PUT,Payments,Basic,True,True,True,2025-07-09 15:05:31.466239,Zombie,60,High
+API0500,Wipro,Database API,/api/v1/database,PUT,Storage,OAuth2,True,True,True,2026-02-01 15:05:31.467775,Active,40,Moderate
+API0418,MongoDB,Authorization API,/api/v1/authorization,DELETE,Finance,Basic,False,True,True,2025-08-05 15:05:31.467056,Zombie,90,Critical
+API0497,Wipro,Admin API,/api/v1/admin,POST,HR,API Key,False,False,False,2025-09-17 15:05:31.467753,Deprecated,50,Moderate
+API0394,Redis,Analytics API,/api/v1/analytics,GET,Identity,API Key,False,False,False,2025-07-14 15:05:31.466859,Deprecated,50,Moderate
+API0325,Zscaler,Audit API,/api/v1/audit,GET,Analytics,OAuth2,True,False,False,2026-06-06 15:05:31.466249,Active,10,Low
+API0295,TCS,Authentication API,/api/v1/authentication,GET,HR,JWT,True,True,False,2026-03-23 15:05:31.465905,Active,0,Low
+API0406,MongoDB,Payment API,/api/v1/payment,PUT,DevOps,None,False,False,True,2025-08-31 15:05:31.466956,Zombie,100,Critical
+API0376,Infosys,Logging API,/api/v1/logging,DELETE,Storage,API Key,True,True,False,2026-05-08 15:05:31.466714,Active,0,Low
+API0337,PayPal,File Upload API,/api/v1/file-upload,GET,CRM,Basic,False,True,False,2025-09-27 15:05:31.466349,Deprecated,40,Moderate
+API0113,Microsoft Azure,Profile API,/api/v1/profile,DELETE,Identity,OAuth2,True,False,True,2025-12-01 15:05:31.462788,Zombie,70,High
+API0180,Snowflake,Notification API,/api/v1/notification,DELETE,Storage,None,True,True,False,2026-04-17 15:05:31.463792,Active,20,Low
+API0341,PayPal,Notification API,/api/v1/notification,DELETE,Payments,JWT,True,True,True,2026-05-06 15:05:31.466378,Active,40,Moderate
+API0375,ServiceNow,Storage API,/api/v1/storage,PUT,Analytics,OAuth2,True,False,True,2026-02-16 15:05:31.466700,Active,50,Moderate
+API0366,ServiceNow,Audit API,/api/v1/audit,DELETE,Payments,None,True,True,True,2026-01-17 15:05:31.466629,Active,60,High
+API0315,PwC,Email API,/api/v1/email,PUT,DevOps,API Key,False,True,False,2025-08-18 15:05:31.466160,Deprecated,40,Moderate
+API0152,Palo Alto Networks,CRM API,/api/v1/crm,PUT,CRM,OAuth2,True,False,True,2025-08-09 15:05:31.463390,Zombie,70,High
+API0399,Redis,Billing API,/api/v1/billing,POST,CRM,Basic,True,True,True,2025-12-08 15:05:31.466897,Zombie,60,High
+API0234,KPMG,Admin API,/api/v1/admin,GET,DevOps,JWT,True,False,False,2025-08-28 15:05:31.464947,Deprecated,20,Low
+API0494,Mastercard,User API,/api/v1/user,DELETE,Finance,JWT,True,True,True,2025-07-10 15:05:31.467722,Zombie,60,High
+API0426,Databricks,Audit API,/api/v1/audit,GET,Storage,API Key,True,True,False,2026-01-15 15:05:31.467125,Deprecated,10,Low
+API0165,Palo Alto Networks,Profile API,/api/v1/profile,DELETE,Storage,OAuth2,True,True,False,2026-06-20 15:05:31.463588,Active,0,Low
+API0318,Zscaler,Email API,/api/v1/email,GET,Identity,Basic,True,True,True,2026-03-18 15:05:31.466194,Active,40,Moderate
+API0137,Fortinet,Admin API,/api/v1/admin,POST,HR,API Key,False,True,True,2025-06-24 15:05:31.463167,Zombie,90,Critical
+API0198,EY,Billing API,/api/v1/billing,GET,HR,Basic,False,False,False,2026-03-04 15:05:31.464060,Active,40,Moderate
+API0259,Oracle Cloud,File Upload API,/api/v1/file-upload,GET,Finance,JWT,True,False,True,2025-12-04 15:05:31.465339,Zombie,70,High
+API0233,KPMG,Storage API,/api/v1/storage,DELETE,Payments,Basic,False,False,False,2025-10-04 15:05:31.464931,Deprecated,50,Moderate
+API0116,Microsoft Azure,Recommendation API,/api/v1/recommendation,DELETE,Storage,Basic,True,True,True,2025-08-24 15:05:31.462830,Zombie,60,High
+API0121,IBM Cloud,Authentication API,/api/v1/authentication,DELETE,Payments,JWT,True,True,True,2026-04-24 15:05:31.462922,Active,40,Moderate
+API0387,Infosys,Database API,/api/v1/database,GET,Analytics,Basic,True,False,True,2026-05-12 15:05:31.466800,Active,50,Moderate
+API0225,SAP,CRM API,/api/v1/crm,DELETE,CRM,Basic,False,True,True,2026-02-03 15:05:31.464570,Active,70,High
+API0445,Accenture,Email API,/api/v1/email,PUT,Identity,None,True,False,True,2025-12-14 15:05:31.467278,Zombie,90,Critical
+API0528,Auth0,Storage API,/api/v1/storage,PUT,DevOps,JWT,False,True,True,2025-11-26 15:05:31.468009,Zombie,90,Critical
+API0128,IBM Cloud,Invoice API,/api/v1/invoice,DELETE,Finance,Basic,True,False,False,2025-08-29 15:05:31.463025,Deprecated,20,Low
+API0531,Auth0,Authentication API,/api/v1/authentication,POST,Storage,Basic,False,False,False,2026-02-09 15:05:31.468031,Deprecated,50,Moderate
+API0286,TCS,Email API,/api/v1/email,POST,HR,OAuth2,False,False,True,2025-12-31 15:05:31.465777,Active,80,High
+API0479,Workday,CRM API,/api/v1/crm,PUT,Storage,Basic,True,True,True,2026-05-16 15:05:31.467593,Active,40,Moderate
+API0513,Stripe,Search API,/api/v1/search,PUT,HR,Basic,True,False,False,2026-05-22 15:05:31.467882,Active,10,Low
+API0108,Microsoft Azure,Customer API,/api/v1/customer,GET,Analytics,JWT,False,True,True,2025-12-29 15:05:31.462717,Active,70,High
+API0539,Auth0,Logging API,/api/v1/logging,GET,HR,API Key,False,True,True,2025-07-16 15:05:31.468097,Zombie,90,Critical
+API0361,ServiceNow,Authorization API,/api/v1/authorization,DELETE,Payments,OAuth2,True,True,False,2025-10-03 15:05:31.466589,Deprecated,10,Low
+API0134,IBM Cloud,Recommendation API,/api/v1/recommendation,DELETE,Analytics,JWT,False,True,True,2026-04-24 15:05:31.463109,Active,70,High
+API0403,Redis,Invoice API,/api/v1/invoice,PUT,Storage,API Key,False,True,True,2026-05-25 15:05:31.466926,Active,70,High
+API0045,Google Cloud,Billing API,/api/v1/billing,GET,HR,API Key,True,True,False,2026-06-15 15:05:31.461758,Active,0,Low
+API0510,Wipro,Recommendation API,/api/v1/recommendation,DELETE,Payments,API Key,False,False,True,2025-12-18 15:05:31.467853,Zombie,100,Critical
+API0066,Cisco,Customer API,/api/v1/customer,DELETE,HR,None,True,True,True,2026-05-26 15:05:31.462092,Active,60,High
+API0284,Trend Micro,Search API,/api/v1/search,GET,HR,API Key,False,False,True,2026-04-01 15:05:31.465731,Active,80,High
+API0086,CrowdStrike,Authentication API,/api/v1/authentication,DELETE,DevOps,None,True,False,False,2025-11-21 15:05:31.462374,Deprecated,40,Moderate
+API0243,Okta,Customer API,/api/v1/customer,PUT,CRM,JWT,True,False,False,2026-02-26 15:05:31.465104,Active,10,Low
+API0187,Deloitte,Authorization API,/api/v1/authorization,PUT,Storage,JWT,True,True,False,2026-01-21 15:05:31.463898,Deprecated,10,Low
+API0425,Databricks,Billing API,/api/v1/billing,GET,Payments,JWT,False,True,False,2026-01-26 15:05:31.467117,Deprecated,40,Moderate
+API0160,Palo Alto Networks,Audit API,/api/v1/audit,PUT,Analytics,OAuth2,False,True,False,2025-11-20 15:05:31.463517,Deprecated,40,Moderate
+API0013,Check Point,Notification API,/api/v1/notification,DELETE,Payments,OAuth2,True,False,False,2026-05-25 15:05:31.460508,Active,10,Low
+API0036,Google Cloud,File Upload API,/api/v1/file-upload,PUT,Storage,OAuth2,False,True,True,2026-03-30 15:05:31.461532,Active,70,High
+API0029,AWS,CRM API,/api/v1/crm,DELETE,Identity,None,False,False,False,2025-08-31 15:05:31.461407,Deprecated,70,High
+API0171,Snowflake,Authorization API,/api/v1/authorization,DELETE,HR,JWT,True,True,True,2026-02-07 15:05:31.463678,Active,40,Moderate
+API0143,Fortinet,Database API,/api/v1/database,PUT,DevOps,Basic,False,False,True,2026-05-10 15:05:31.463251,Active,80,High
+API0441,Accenture,Admin API,/api/v1/admin,DELETE,Analytics,OAuth2,False,True,False,2025-08-08 15:05:31.467243,Deprecated,40,Moderate
+API0378,Infosys,Audit API,/api/v1/audit,PUT,DevOps,JWT,False,False,True,2026-04-20 15:05:31.466729,Active,80,High
+API0222,SAP,Analytics API,/api/v1/analytics,POST,Identity,Basic,False,False,True,2025-09-07 15:05:31.464528,Zombie,100,Critical
+API0096,Cloudflare,Recommendation API,/api/v1/recommendation,GET,Payments,Basic,True,True,False,2025-08-14 15:05:31.462534,Deprecated,10,Low
+API0052,Oracle,User API,/api/v1/user,POST,HR,OAuth2,False,True,True,2026-01-08 15:05:31.461882,Active,70,High
+API0241,Okta,Database API,/api/v1/database,GET,Identity,OAuth2,True,True,False,2026-01-31 15:05:31.465078,Deprecated,10,Low
+API0412,MongoDB,User API,/api/v1/user,POST,CRM,OAuth2,False,False,False,2026-02-21 15:05:31.467009,Deprecated,50,Moderate
+API0352,Visa,Notification API,/api/v1/notification,DELETE,Storage,Basic,True,False,False,2025-07-20 15:05:31.466495,Deprecated,20,Low
+API0468,Workday,Payment API,/api/v1/payment,POST,Storage,API Key,False,False,False,2025-09-17 15:05:31.467493,Deprecated,50,Moderate
+API0179,Snowflake,Billing API,/api/v1/billing,GET,Storage,Basic,True,True,False,2025-12-26 15:05:31.463780,Deprecated,10,Low
+API0432,Databricks,Search API,/api/v1/search,DELETE,HR,JWT,True,False,True,2026-02-09 15:05:31.467169,Active,50,Moderate
+API0042,Google Cloud,Database API,/api/v1/database,DELETE,Payments,None,True,True,True,2026-06-18 15:05:31.461626,Active,60,High
+API0482,Mastercard,Profile API,/api/v1/profile,DELETE,DevOps,None,True,False,False,2026-06-13 15:05:31.467624,Active,30,Moderate
+API0429,Databricks,User API,/api/v1/user,DELETE,CRM,Basic,True,True,False,2025-07-18 15:05:31.467148,Deprecated,10,Low
+API0207,EY,Authentication API,/api/v1/authentication,PUT,CRM,None,False,True,False,2026-03-19 15:05:31.464172,Active,50,Moderate
+API0283,Trend Micro,Admin API,/api/v1/admin,PUT,Identity,API Key,False,False,True,2025-07-02 15:05:31.465701,Zombie,100,Critical
+API0359,Visa,Billing API,/api/v1/billing,DELETE,CRM,API Key,True,False,True,2026-01-28 15:05:31.466565,Active,50,Moderate
+API0255,Okta,Authentication API,/api/v1/authentication,POST,Analytics,OAuth2,False,True,False,2025-12-28 15:05:31.465270,Deprecated,40,Moderate
+API0456,Ping Identity,CRM API,/api/v1/crm,POST,Finance,None,False,False,False,2025-09-07 15:05:31.467371,Deprecated,70,High
+API0005,Check Point,Authentication API,/api/v1/authentication,POST,Identity,Basic,True,False,True,2026-01-01 15:05:31.460411,Active,50,Moderate
+API0257,Oracle Cloud,Search API,/api/v1/search,POST,Finance,API Key,False,False,False,2025-08-28 15:05:31.465312,Deprecated,50,Moderate
+API0496,Wipro,Profile API,/api/v1/profile,PUT,HR,None,True,False,True,2025-12-03 15:05:31.467745,Zombie,90,Critical
+API0101,Cloudflare,Profile API,/api/v1/profile,GET,Payments,Basic,True,False,True,2025-09-04 15:05:31.462598,Zombie,70,High
+API0227,KPMG,Profile API,/api/v1/profile,POST,DevOps,Basic,False,True,False,2025-11-04 15:05:31.464845,Deprecated,40,Moderate
+API0471,Workday,Recommendation API,/api/v1/recommendation,POST,Payments,OAuth2,False,True,False,2025-07-20 15:05:31.467529,Deprecated,40,Moderate
+API0214,SAP,Storage API,/api/v1/storage,DELETE,DevOps,None,False,False,True,2026-01-14 15:05:31.464295,Active,100,Critical
+API0466,Workday,Email API,/api/v1/email,POST,DevOps,Basic,False,False,False,2025-08-27 15:05:31.467455,Deprecated,50,Moderate
+API0172,Snowflake,Customer API,/api/v1/customer,POST,Identity,JWT,False,True,False,2026-06-12 15:05:31.463691,Active,30,Moderate
+API0099,Cloudflare,File Upload API,/api/v1/file-upload,PUT,HR,API Key,True,False,True,2025-12-09 15:05:31.462574,Zombie,70,High
+API0293,TCS,Authorization API,/api/v1/authorization,DELETE,Finance,Basic,True,True,False,2025-10-29 15:05:31.465873,Deprecated,10,Low
+API0216,SAP,Payment API,/api/v1/payment,GET,Analytics,OAuth2,True,True,False,2025-11-16 15:05:31.464421,Deprecated,10,Low
+API0062,Cisco,Analytics API,/api/v1/analytics,DELETE,Storage,OAuth2,True,True,False,2025-11-26 15:05:31.462036,Deprecated,10,Low
+API0048,Oracle,Authentication API,/api/v1/authentication,PUT,HR,OAuth2,False,False,True,2026-03-15 15:05:31.461835,Active,80,High
+API0033,Google Cloud,Authentication API,/api/v1/authentication,PUT,Identity,API Key,False,True,True,2025-12-05 15:05:31.461491,Zombie,90,Critical
+API0268,Oracle Cloud,Authentication API,/api/v1/authentication,GET,HR,OAuth2,True,True,False,2026-03-23 15:05:31.465481,Active,0,Low
+API0328,Zscaler,Billing API,/api/v1/billing,POST,Finance,OAuth2,True,False,True,2025-06-30 15:05:31.466272,Zombie,70,High
+API0201,EY,Database API,/api/v1/database,PUT,HR,Basic,True,True,False,2026-02-19 15:05:31.464094,Deprecated,10,Low
+API0493,Mastercard,Invoice API,/api/v1/invoice,PUT,Finance,OAuth2,False,False,False,2025-07-28 15:05:31.467714,Deprecated,50,Moderate
+API0028,AWS,Authorization API,/api/v1/authorization,GET,HR,OAuth2,False,True,False,2025-07-10 15:05:31.461394,Deprecated,40,Moderate
+API0472,Workday,Customer API,/api/v1/customer,DELETE,Identity,None,False,False,True,2026-05-06 15:05:31.467537,Active,100,Critical
+API0231,KPMG,Invoice API,/api/v1/invoice,GET,DevOps,JWT,True,False,False,2026-03-05 15:05:31.464906,Active,10,Low
+API0261,Oracle Cloud,Billing API,/api/v1/billing,DELETE,Analytics,API Key,False,False,True,2025-09-05 15:05:31.465363,Zombie,100,Critical
+API0379,Infosys,Invoice API,/api/v1/invoice,DELETE,HR,None,False,False,False,2025-11-11 15:05:31.466736,Deprecated,70,High
+API0289,TCS,Analytics API,/api/v1/analytics,POST,HR,Basic,False,True,True,2025-12-28 15:05:31.465818,Active,70,High
+API0163,Palo Alto Networks,User API,/api/v1/user,POST,Storage,Basic,True,False,True,2025-07-04 15:05:31.463558,Zombie,70,High
+API0392,Redis,Logging API,/api/v1/logging,DELETE,HR,OAuth2,False,False,False,2025-08-05 15:05:31.466844,Deprecated,50,Moderate
+API0469,Workday,Audit API,/api/v1/audit,PUT,DevOps,JWT,True,False,False,2025-08-11 15:05:31.467506,Deprecated,20,Low
+API0139,Fortinet,Recommendation API,/api/v1/recommendation,GET,Identity,API Key,False,False,True,2026-05-08 15:05:31.463196,Active,80,High
+API0063,Cisco,Profile API,/api/v1/profile,GET,Finance,None,False,True,True,2025-07-27 15:05:31.462049,Zombie,100,Critical
+API0136,Fortinet,Invoice API,/api/v1/invoice,GET,Analytics,OAuth2,False,True,False,2026-03-07 15:05:31.463152,Active,30,Moderate
+API0129,IBM Cloud,Search API,/api/v1/search,POST,HR,JWT,True,True,True,2026-05-30 15:05:31.463038,Active,40,Moderate
+API0524,Stripe,Profile API,/api/v1/profile,GET,Finance,API Key,False,False,True,2026-04-28 15:05:31.467964,Active,80,High
+API0009,Check Point,File Upload API,/api/v1/file-upload,DELETE,Finance,JWT,False,True,True,2026-05-11 15:05:31.460446,Active,70,High
+API0327,Zscaler,Search API,/api/v1/search,GET,Identity,OAuth2,True,False,False,2026-03-21 15:05:31.466264,Active,10,Low
+API0345,PayPal,Audit API,/api/v1/audit,GET,Identity,JWT,False,True,True,2026-03-08 15:05:31.466411,Active,70,High
+API0065,Cisco,Recommendation API,/api/v1/recommendation,GET,Storage,Basic,False,False,False,2025-07-31 15:05:31.462079,Deprecated,50,Moderate
+API0301,PwC,Customer API,/api/v1/customer,POST,HR,API Key,False,False,True,2025-09-28 15:05:31.466016,Zombie,100,Critical
+API0015,Check Point,Admin API,/api/v1/admin,PUT,CRM,JWT,True,False,False,2025-07-31 15:05:31.461151,Deprecated,20,Low
+API0157,Palo Alto Networks,Authorization API,/api/v1/authorization,POST,Analytics,API Key,True,True,False,2026-01-10 15:05:31.463462,Deprecated,10,Low
+API0041,Google Cloud,Search API,/api/v1/search,POST,Storage,None,True,False,False,2025-11-07 15:05:31.461611,Deprecated,40,Moderate
+API0380,Infosys,Customer API,/api/v1/customer,POST,Finance,JWT,True,True,False,2025-07-18 15:05:31.466743,Deprecated,10,Low
+API0508,Wipro,Email API,/api/v1/email,POST,Analytics,API Key,True,False,True,2026-05-01 15:05:31.467839,Active,50,Moderate
+API0452,Ping Identity,Notification API,/api/v1/notification,PUT,Payments,JWT,True,False,False,2026-03-09 15:05:31.467337,Active,10,Low
+API0217,SAP,Authorization API,/api/v1/authorization,DELETE,DevOps,JWT,False,True,False,2025-12-12 15:05:31.464435,Deprecated,40,Moderate
+API0410,MongoDB,Admin API,/api/v1/admin,DELETE,CRM,None,False,True,False,2026-06-15 15:05:31.466985,Active,50,Moderate
+API0280,Trend Micro,Analytics API,/api/v1/analytics,DELETE,Finance,API Key,False,False,True,2026-03-20 15:05:31.465659,Active,80,High
+API0481,Mastercard,Search API,/api/v1/search,PUT,Finance,None,False,False,False,2025-12-27 15:05:31.467616,Deprecated,70,High
+API0477,Workday,Authentication API,/api/v1/authentication,GET,Analytics,None,False,False,False,2025-08-02 15:05:31.467579,Deprecated,70,High
+API0338,PayPal,Authorization API,/api/v1/authorization,PUT,DevOps,JWT,False,True,False,2026-06-01 15:05:31.466356,Active,30,Moderate
+API0237,KPMG,Database API,/api/v1/database,POST,Storage,JWT,True,True,True,2026-05-24 15:05:31.465003,Active,40,Moderate
+API0208,EY,Storage API,/api/v1/storage,GET,Finance,OAuth2,False,False,False,2025-11-11 15:05:31.464183,Deprecated,50,Moderate
+API0213,SAP,Recommendation API,/api/v1/recommendation,PUT,CRM,Basic,True,False,False,2026-03-26 15:05:31.464282,Active,10,Low
+API0296,TCS,Recommendation API,/api/v1/recommendation,GET,CRM,OAuth2,False,False,False,2026-04-25 15:05:31.465926,Active,40,Moderate
+API0505,Wipro,Billing API,/api/v1/billing,PUT,Payments,JWT,False,True,True,2025-10-19 15:05:31.467815,Zombie,90,Critical
+API0252,Okta,Email API,/api/v1/email,PUT,CRM,Basic,True,False,False,2025-10-07 15:05:31.465225,Deprecated,20,Low
+API0532,Auth0,Authorization API,/api/v1/authorization,GET,Analytics,API Key,True,True,True,2026-05-05 15:05:31.468038,Active,40,Moderate
+API0506,Wipro,Customer API,/api/v1/customer,POST,Payments,JWT,False,False,False,2025-09-13 15:05:31.467822,Deprecated,50,Moderate
+API0304,PwC,Authorization API,/api/v1/authorization,DELETE,Payments,API Key,False,False,True,2025-11-27 15:05:31.466052,Zombie,100,Critical
+API0351,Visa,Database API,/api/v1/database,POST,DevOps,None,False,False,True,2026-03-10 15:05:31.466464,Active,100,Critical
+API0270,Oracle Cloud,User API,/api/v1/user,GET,Finance,API Key,False,False,False,2025-06-30 15:05:31.465508,Deprecated,50,Moderate
+API0502,Wipro,Audit API,/api/v1/audit,PUT,CRM,OAuth2,False,True,True,2025-11-28 15:05:31.467790,Zombie,90,Critical
+API0202,EY,Recommendation API,/api/v1/recommendation,PUT,Payments,API Key,False,False,False,2026-02-26 15:05:31.464108,Active,40,Moderate
+API0162,Palo Alto Networks,Email API,/api/v1/email,DELETE,HR,JWT,True,False,False,2026-02-20 15:05:31.463545,Deprecated,20,Low
+API0044,Google Cloud,Analytics API,/api/v1/analytics,GET,HR,Basic,True,True,False,2025-12-21 15:05:31.461739,Deprecated,10,Low
+API0218,SAP,File Upload API,/api/v1/file-upload,PUT,Storage,Basic,False,True,False,2025-09-05 15:05:31.464482,Deprecated,40,Moderate
+API0402,Redis,Recommendation API,/api/v1/recommendation,POST,Finance,Basic,True,True,False,2026-02-20 15:05:31.466919,Deprecated,10,Low
+API0191,Deloitte,Email API,/api/v1/email,POST,DevOps,OAuth2,True,True,False,2025-10-13 15:05:31.463945,Deprecated,10,Low
+API0310,PwC,Search API,/api/v1/search,DELETE,DevOps,API Key,True,False,True,2026-03-13 15:05:31.466120,Active,50,Moderate
+API0260,Oracle Cloud,Admin API,/api/v1/admin,PUT,Identity,OAuth2,False,True,True,2025-12-15 15:05:31.465351,Zombie,90,Critical
+API0106,Microsoft Azure,Analytics API,/api/v1/analytics,GET,HR,API Key,True,False,False,2026-03-19 15:05:31.462691,Active,10,Low
+API0054,Oracle,Notification API,/api/v1/notification,PUT,Payments,OAuth2,True,True,True,2026-02-22 15:05:31.461906,Active,40,Moderate
+API0390,Infosys,CRM API,/api/v1/crm,GET,CRM,Basic,True,False,True,2026-05-28 15:05:31.466821,Active,50,Moderate
+API0002,Check Point,CRM API,/api/v1/crm,GET,Finance,OAuth2,False,True,False,2025-07-01 15:05:31.460377,Deprecated,40,Moderate
+API0488,Mastercard,Email API,/api/v1/email,DELETE,Analytics,Basic,True,True,True,2025-08-28 15:05:31.467677,Zombie,60,High
+API0360,Visa,Authorization API,/api/v1/authorization,GET,DevOps,API Key,True,True,True,2026-04-27 15:05:31.466572,Active,40,Moderate
+API0050,Oracle,Email API,/api/v1/email,PUT,Storage,Basic,True,True,False,2025-09-01 15:05:31.461858,Deprecated,10,Low
+API0420,MongoDB,Invoice API,/api/v1/invoice,GET,Payments,API Key,True,True,False,2026-01-16 15:05:31.467070,Deprecated,10,Low
+API0081,CrowdStrike,Logging API,/api/v1/logging,GET,CRM,API Key,False,True,True,2026-02-24 15:05:31.462312,Active,70,High
+API0206,EY,File Upload API,/api/v1/file-upload,PUT,CRM,None,True,False,True,2025-12-15 15:05:31.464160,Zombie,90,Critical
+API0035,Google Cloud,Notification API,/api/v1/notification,PUT,CRM,None,False,True,False,2026-04-15 15:05:31.461519,Active,50,Moderate
+API0431,Databricks,Authorization API,/api/v1/authorization,POST,DevOps,JWT,True,True,True,2026-06-09 15:05:31.467162,Active,40,Moderate
+API0264,Oracle Cloud,Logging API,/api/v1/logging,PUT,Finance,None,True,False,True,2025-10-31 15:05:31.465410,Zombie,90,Critical
+API0428,Databricks,Invoice API,/api/v1/invoice,DELETE,CRM,JWT,False,False,True,2025-08-04 15:05:31.467139,Zombie,100,Critical
+API0455,Ping Identity,Profile API,/api/v1/profile,POST,DevOps,None,True,False,False,2026-04-25 15:05:31.467364,Active,30,Moderate
+API0444,Accenture,Invoice API,/api/v1/invoice,GET,HR,Basic,True,True,False,2025-08-03 15:05:31.467268,Deprecated,10,Low
+API0367,ServiceNow,CRM API,/api/v1/crm,POST,Identity,JWT,True,False,True,2025-12-07 15:05:31.466637,Zombie,70,High
+API0092,Cloudflare,Analytics API,/api/v1/analytics,GET,Payments,JWT,True,False,False,2026-05-21 15:05:31.462462,Active,10,Low
+API0340,PayPal,Email API,/api/v1/email,PUT,Identity,OAuth2,True,True,False,2025-11-26 15:05:31.466371,Deprecated,10,Low
+API0521,Stripe,Analytics API,/api/v1/analytics,POST,Storage,OAuth2,True,True,False,2025-09-04 15:05:31.467941,Deprecated,10,Low
+API0053,Oracle,Analytics API,/api/v1/analytics,GET,CRM,None,False,False,False,2025-09-29 15:05:31.461894,Deprecated,70,High
+API0346,Visa,Payment API,/api/v1/payment,GET,Storage,API Key,False,True,False,2025-08-18 15:05:31.466426,Deprecated,40,Moderate
+API0265,Oracle Cloud,Customer API,/api/v1/customer,GET,Finance,None,False,False,False,2025-12-27 15:05:31.465426,Deprecated,70,High
+API0242,Okta,User API,/api/v1/user,DELETE,Storage,Basic,True,False,False,2026-03-29 15:05:31.465091,Active,10,Low
+API0014,Check Point,Logging API,/api/v1/logging,PUT,Finance,OAuth2,True,False,False,2025-07-05 15:05:31.460521,Deprecated,20,Low
+API0316,Zscaler,Analytics API,/api/v1/analytics,POST,Finance,OAuth2,False,False,True,2026-05-12 15:05:31.466180,Active,80,High
+API0089,CrowdStrike,CRM API,/api/v1/crm,POST,CRM,JWT,True,False,True,2025-09-17 15:05:31.462409,Zombie,70,High
+API0388,Infosys,Admin API,/api/v1/admin,GET,DevOps,None,True,True,True,2026-02-25 15:05:31.466807,Active,60,High
+API0274,Trend Micro,User API,/api/v1/user,PUT,Payments,None,True,True,False,2025-08-29 15:05:31.465575,Deprecated,30,Moderate
+API0167,Snowflake,Logging API,/api/v1/logging,POST,Storage,OAuth2,True,True,False,2026-02-18 15:05:31.463629,Deprecated,10,Low
+API0329,Zscaler,Storage API,/api/v1/storage,POST,Storage,OAuth2,True,True,True,2025-07-15 15:05:31.466280,Zombie,60,High
+API0535,Auth0,CRM API,/api/v1/crm,PUT,Finance,Basic,True,False,False,2025-11-23 15:05:31.468062,Deprecated,20,Low
+API0135,IBM Cloud,Admin API,/api/v1/admin,PUT,DevOps,API Key,True,False,False,2025-11-05 15:05:31.463121,Deprecated,20,Low
+API0307,PwC,File Upload API,/api/v1/file-upload,POST,Identity,OAuth2,True,True,True,2026-06-21 15:05:31.466093,Active,40,Moderate
+API0485,Mastercard,Authorization API,/api/v1/authorization,POST,DevOps,Basic,True,True,True,2026-02-23 15:05:31.467649,Active,40,Moderate
+API0526,Auth0,Profile API,/api/v1/profile,POST,Analytics,API Key,True,False,False,2026-04-23 15:05:31.467988,Active,10,Low
+API0320,Zscaler,Invoice API,/api/v1/invoice,GET,Analytics,API Key,True,True,False,2025-09-22 15:05:31.466209,Deprecated,10,Low
+API0244,Okta,Payment API,/api/v1/payment,DELETE,CRM,None,False,False,False,2025-11-15 15:05:31.465117,Deprecated,70,High
+API0055,Oracle,Payment API,/api/v1/payment,POST,CRM,JWT,True,False,True,2025-11-07 15:05:31.461918,Zombie,70,High
+API0364,ServiceNow,Analytics API,/api/v1/analytics,PUT,Identity,OAuth2,True,True,True,2025-07-14 15:05:31.466611,Zombie,60,High
+API0051,Oracle,Audit API,/api/v1/audit,DELETE,DevOps,JWT,True,True,False,2025-12-15 15:05:31.461870,Deprecated,10,Low
+API0504,Wipro,Storage API,/api/v1/storage,PUT,CRM,JWT,False,False,False,2026-06-01 15:05:31.467806,Active,40,Moderate
+API0175,Snowflake,User API,/api/v1/user,DELETE,Finance,OAuth2,False,True,True,2025-11-20 15:05:31.463731,Zombie,90,Critical
+API0446,Accenture,File Upload API,/api/v1/file-upload,GET,Storage,Basic,True,True,True,2026-04-09 15:05:31.467286,Active,40,Moderate
+API0190,Deloitte,Analytics API,/api/v1/analytics,DELETE,Payments,None,True,True,False,2026-03-27 15:05:31.463934,Active,20,Low
+API0538,Auth0,Notification API,/api/v1/notification,GET,CRM,OAuth2,True,False,True,2025-10-15 15:05:31.468084,Zombie,70,High
+API0464,Ping Identity,Billing API,/api/v1/billing,DELETE,Storage,OAuth2,False,True,True,2026-03-26 15:05:31.467431,Active,70,High
+API0188,Deloitte,Authentication API,/api/v1/authentication,POST,Identity,JWT,True,False,False,2025-11-26 15:05:31.463910,Deprecated,20,Low
+API0476,Workday,Search API,/api/v1/search,PUT,CRM,None,False,True,True,2026-02-12 15:05:31.467571,Active,90,Critical
+API0170,Snowflake,Audit API,/api/v1/audit,DELETE,Analytics,OAuth2,True,False,False,2026-02-02 15:05:31.463664,Deprecated,20,Low
+API0511,Stripe,Authorization API,/api/v1/authorization,PUT,Storage,None,True,False,True,2026-06-19 15:05:31.467867,Active,70,High
+API0059,Oracle,Authorization API,/api/v1/authorization,GET,Storage,OAuth2,False,False,True,2025-12-16 15:05:31.461967,Zombie,100,Critical
+API0475,Workday,Profile API,/api/v1/profile,POST,Identity,None,False,True,False,2026-03-29 15:05:31.467562,Active,50,Moderate
+SHADOW001,AWS,Internal Service API 1,/internal/service-1,PUT,CRM,JWT,True,True,True,2026-06-23 15:05:31.707451,Shadow,90,Critical
+SHADOW002,Ping Identity,Internal Service API 2,/internal/service-2,POST,HR,JWT,True,True,True,2026-06-23 15:05:31.707494,Shadow,90,Critical
+SHADOW003,Accenture,Internal Service API 3,/internal/service-3,PUT,Payments,OAuth2,True,True,True,2026-06-23 15:05:31.707522,Shadow,90,Critical
+SHADOW004,Redis,Internal Service API 4,/internal/service-4,PUT,Identity,API Key,False,False,True,2026-06-23 15:05:31.707538,Shadow,100,Critical
+SHADOW005,MongoDB,Internal Service API 5,/internal/service-5,DELETE,Storage,JWT,False,False,True,2026-06-23 15:05:31.707550,Shadow,100,Critical
+SHADOW006,Databricks,Internal Service API 6,/internal/service-6,GET,Storage,JWT,False,False,True,2026-06-23 15:05:31.707562,Shadow,100,Critical
+SHADOW007,Stripe,Internal Service API 7,/internal/service-7,PUT,Finance,Basic,False,True,True,2026-06-23 15:05:31.707573,Shadow,100,Critical
+SHADOW008,Cisco,Internal Service API 8,/internal/service-8,DELETE,Identity,Basic,True,False,True,2026-06-23 15:05:31.707583,Shadow,100,Critical
+SHADOW009,Accenture,Internal Service API 9,/internal/service-9,POST,CRM,Basic,True,False,True,2026-06-23 15:05:31.707594,Shadow,100,Critical
+SHADOW010,Cisco,Internal Service API 10,/internal/service-10,PUT,Payments,Basic,False,True,True,2026-06-23 15:05:31.707601,Shadow,100,Critical
+SHADOW011,Oracle Cloud,Internal Service API 11,/internal/service-11,PUT,HR,API Key,False,False,True,2026-06-23 15:05:31.707607,Shadow,100,Critical
+SHADOW012,AWS,Internal Service API 12,/internal/service-12,GET,Payments,OAuth2,False,False,True,2026-06-23 15:05:31.707613,Shadow,100,Critical
+SHADOW013,SAP,Internal Service API 13,/internal/service-13,GET,DevOps,None,False,False,True,2026-06-23 15:05:31.707619,Shadow,100,Critical
+SHADOW014,Visa,Internal Service API 14,/internal/service-14,PUT,Analytics,OAuth2,False,False,True,2026-06-23 15:05:31.707628,Shadow,100,Critical
+SHADOW015,ServiceNow,Internal Service API 15,/internal/service-15,DELETE,Finance,Basic,False,True,True,2026-06-23 15:05:31.707634,Shadow,100,Critical
+SHADOW016,Zscaler,Internal Service API 16,/internal/service-16,GET,Finance,API Key,True,False,True,2026-06-23 15:05:31.707640,Shadow,100,Critical
+SHADOW017,Google Cloud,Internal Service API 17,/internal/service-17,PUT,DevOps,JWT,False,False,True,2026-06-23 15:05:31.707646,Shadow,100,Critical
+SHADOW018,Wipro,Internal Service API 18,/internal/service-18,GET,CRM,API Key,False,True,True,2026-06-23 15:05:31.707653,Shadow,100,Critical
+SHADOW019,Palo Alto Networks,Internal Service API 19,/internal/service-19,PUT,Identity,None,True,True,True,2026-06-23 15:05:31.707658,Shadow,100,Critical
+SHADOW020,Palo Alto Networks,Internal Service API 20,/internal/service-20,PUT,CRM,JWT,False,False,True,2026-06-23 15:05:31.707664,Shadow,100,Critical
