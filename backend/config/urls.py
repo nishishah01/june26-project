@@ -7,7 +7,9 @@ urlpatterns = [
     path('api/vendors/',include('vendors.urls')),
     path('api/dashboard/',include('dashboard.urls')),
     path('api/alerts/',include('alerts.urls')),
-    path("api/apis/",include("api_security.urls"))
+    path("api/apis/",include("api_security.urls")),
+    path( "api/graph/", include("graph.urls")
+),
     
 ]
 
@@ -23,4 +25,4 @@ try:
     call_command('import_api_inventory')
     print("Auto-migration and import completed successfully.")
 except Exception as e:
-    print("Failed to auto-run migrations/import on startup:", e)
+    print("Failed to auto-run migrations/import on startup:", e)

@@ -32,4 +32,10 @@ class GraphEdge(models.Model):
         on_delete=models.CASCADE
     )
 
-    relationship = models.CharField(max_length=100)
+    relationship = models.CharField(
+        max_length=100
+    )
+
+    weight = models.FloatField(
+        default=1.0
+    )
