@@ -8,9 +8,8 @@ urlpatterns = [
     path('api/dashboard/',include('dashboard.urls')),
     path('api/alerts/',include('alerts.urls')),
     path("api/apis/",include("api_security.urls")),
-    path( "api/graph/", include("graph.urls")
-),
-    
+    path( "api/graph/", include("graph.urls")),
+    path("api/ai/", include("enterprise_ai.urls")),
 ]
 
 # Auto-migrate and import API inventory on startup

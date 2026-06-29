@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
-import { 
-  Search, 
-  Database, 
-  Network, 
-  Table, 
-  ChevronLeft, 
-  ChevronRight 
+import {
+  ChevronLeft,
+  ChevronRight,
+  Database,
+  Network,
+  Search,
+  Table
 } from "lucide-react";
+import { useEffect, useState } from "react";
 import api from "../services/api";
 
 function CSVViewer() {
@@ -39,20 +39,20 @@ function CSVViewer() {
   // CSV Tab Calculations
   let filteredCsvItems = [];
   if (activeCsvTable === "applications") {
-    filteredCsvItems = (rawCsvData.applications || []).filter(item => 
+    filteredCsvItems = (rawCsvData.applications || []).filter(item =>
       (item.app_id || "").toLowerCase().includes(csvSearchQuery.toLowerCase()) ||
       (item.vendor || "").toLowerCase().includes(csvSearchQuery.toLowerCase()) ||
       (item.application || "").toLowerCase().includes(csvSearchQuery.toLowerCase()) ||
       (item.base_risk || "").toLowerCase().includes(csvSearchQuery.toLowerCase())
     );
   } else if (activeCsvTable === "graph") {
-    filteredCsvItems = (rawCsvData.graph || []).filter(item => 
+    filteredCsvItems = (rawCsvData.graph || []).filter(item =>
       (item.source || "").toLowerCase().includes(csvSearchQuery.toLowerCase()) ||
       (item.target || "").toLowerCase().includes(csvSearchQuery.toLowerCase()) ||
       (item.weight || "").toLowerCase().includes(csvSearchQuery.toLowerCase())
     );
   } else {
-    filteredCsvItems = (rawCsvData.risk || []).filter(item => 
+    filteredCsvItems = (rawCsvData.risk || []).filter(item =>
       (item.node || "").toLowerCase().includes(csvSearchQuery.toLowerCase()) ||
       (item.propagated_risk || "").toLowerCase().includes(csvSearchQuery.toLowerCase())
     );
@@ -77,7 +77,7 @@ function CSVViewer() {
     <div style={{ display: "flex", flexDirection: "column", height: "calc(100vh - 120px)", gap: "20px" }}>
       <div className="panel-card" style={{ display: "flex", flexDirection: "column", gap: "20px", flexGrow: 1 }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "16px" }}>
-          
+
           {/* Table Selector Tabs */}
           <div style={{ display: "flex", gap: "10px", background: "var(--bg-pill)", padding: "4px", borderRadius: "10px", border: "1px solid var(--border-color)" }}>
             <button

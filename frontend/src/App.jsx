@@ -6,6 +6,7 @@ import Vendors from "./pages/Vendors";
 import Alerts from "./pages/Alerts";
 import APIs from "./pages/APIs";
 import RiskGraph from "./pages/RiskGraph";
+import Copilot from "./pages/Copilot";
 
 function App() {
 
@@ -40,6 +41,11 @@ function App() {
           <Route
             path="/graph"
             element={<RiskGraph />}
+          />
+
+          <Route
+            path="/analyst"
+            element={<Copilot />}
           />
 
         </Routes>

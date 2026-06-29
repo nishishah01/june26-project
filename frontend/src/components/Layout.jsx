@@ -8,7 +8,8 @@ import {
   X, 
   Activity, 
   ShieldCheck,
-  Globe
+  Globe,
+  Brain
 } from "lucide-react";
 
 function Layout({ children }) {
@@ -45,6 +46,12 @@ function Layout({ children }) {
       name: "Risk Graph",
       icon: Activity,
       description: "Cascade Breach Simulator"
+    },
+    {
+      path: "/analyst",
+      name: "Risk Analyst",
+      icon: Brain,
+      description: "AI-powered risk analysis"
     }
   ];
 
